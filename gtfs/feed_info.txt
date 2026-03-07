@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,default_lang,feed_contact_email,feed_contact_url
+Tuvisa,https://www.vitoria-gasteiz.org/tuvisa,es,20260225,20260328,1.0,es,tuvisa@vitoria-gasteiz.org,https://www.vitoria-gasteiz.org/tuvisa
