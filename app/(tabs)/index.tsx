@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
+      
       <Text style={styles.text}>Hello world</Text>
       <Link href='/about' style={styles.button}>About</Link>
       <MapViewer></MapViewer>

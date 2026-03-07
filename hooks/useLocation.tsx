@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export function useLocation() {
     const [location, setLocation] = useState<Location.LocationObject | null>(null)
     const [errorMsg, setErrorMsg] = useState<string | null>(null)
-    console.log("HOOOOLA")
+
     useEffect(() => {
         async function getPermissions() {
             try {

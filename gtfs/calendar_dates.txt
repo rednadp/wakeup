@@ -1,0 +1,115 @@
+service_id,date,exception_type
+BEI A AND B BLV Domingos,20260301,1
+BEI A AND B BLV Domingos,20260308,1
+BEI A AND B BLV Domingos,20260315,1
+BEI A AND B BLV Domingos,20260322,1
+BEI A AND B BLV Sabados,20260228,1
+BEI A AND B BLV Sabados,20260307,1
+BEI A AND B BLV Sabados,20260314,1
+BEI A AND B BLV Sabados,20260321,1
+BEI A AND B BLV Sabados,20260328,1
+BEI A BLV Laborables,20260225,1
+BEI A BLV Laborables,20260226,1
+BEI A BLV Laborables,20260227,1
+BEI A BLV Laborables,20260302,1
+BEI A BLV Laborables,20260303,1
+BEI A BLV Laborables,20260304,1
+BEI A BLV Laborables,20260305,1
+BEI A BLV Laborables,20260306,1
+BEI A BLV Laborables,20260309,1
+BEI A BLV Laborables,20260310,1
+BEI A BLV Laborables,20260311,1
+BEI A BLV Laborables,20260312,1
+BEI A BLV Laborables,20260313,1
+BEI A BLV Laborables,20260316,1
+BEI A BLV Laborables,20260317,1
+BEI A BLV Laborables,20260318,1
+BEI A BLV Laborables,20260319,1
+BEI A BLV Laborables,20260320,1
+BEI A BLV Laborables,20260323,1
+BEI A BLV Laborables,20260324,1
+BEI A BLV Laborables,20260325,1
+BEI A BLV Laborables,20260326,1
+BEI A BLV Laborables,20260327,1
+BEI B BLV Laborables,20260225,1
+BEI B BLV Laborables,20260226,1
+BEI B BLV Laborables,20260227,1
+BEI B BLV Laborables,20260302,1
+BEI B BLV Laborables,20260303,1
+BEI B BLV Laborables,20260304,1
+BEI B BLV Laborables,20260305,1
+BEI B BLV Laborables,20260306,1
+BEI B BLV Laborables,20260309,1
+BEI B BLV Laborables,20260310,1
+BEI B BLV Laborables,20260311,1
+BEI B BLV Laborables,20260312,1
+BEI B BLV Laborables,20260313,1
+BEI B BLV Laborables,20260316,1
+BEI B BLV Laborables,20260317,1
+BEI B BLV Laborables,20260318,1
+BEI B BLV Laborables,20260319,1
+BEI B BLV Laborables,20260320,1
+BEI B BLV Laborables,20260323,1
+BEI B BLV Laborables,20260324,1
+BEI B BLV Laborables,20260325,1
+BEI B BLV Laborables,20260326,1
+BEI B BLV Laborables,20260327,1
+CementerioDomingo - invierno,20260301,1
+CementerioDomingo - invierno,20260308,1
+CementerioDomingo - invierno,20260315,1
+CementerioDomingo - invierno,20260322,1
+CementerioMiercoles,20260225,1
+CementerioMiercoles,20260304,1
+CementerioMiercoles,20260311,1
+CementerioMiercoles,20260318,1
+CementerioMiercoles,20260325,1
+CementerioSabado,20260228,1
+CementerioSabado,20260307,1
+CementerioSabado,20260314,1
+CementerioSabado,20260321,1
+CementerioSabado,20260328,1
+Domingos,20260301,1
+Domingos,20260308,1
+Domingos,20260315,1
+Domingos,20260322,1
+Gautxori,20260227,1
+Gautxori,20260228,1
+Gautxori,20260306,1
+Gautxori,20260307,1
+Gautxori,20260313,1
+Gautxori,20260314,1
+Gautxori,20260320,1
+Gautxori,20260321,1
+Gautxori,20260327,1
+Gautxori,20260328,1
+Laborables,20260225,1
+Laborables,20260226,1
+Laborables,20260227,1
+Laborables,20260302,1
+Laborables,20260303,1
+Laborables,20260304,1
+Laborables,20260305,1
+Laborables,20260306,1
+Laborables,20260309,1
+Laborables,20260310,1
+Laborables,20260311,1
+Laborables,20260312,1
+Laborables,20260313,1
+Laborables,20260316,1
+Laborables,20260317,1
+Laborables,20260318,1
+Laborables,20260319,1
+Laborables,20260320,1
+Laborables,20260323,1
+Laborables,20260324,1
+Laborables,20260325,1
+Laborables,20260326,1
+Laborables,20260327,1
+Sabados,20260228,1
+Sabados,20260307,1
+Sabados,20260314,1
+Sabados,20260321,1
+Sabados,20260328,1
+UNDEFINED,20260225,1
+UNDEFINED,20260226,1
+UNDEFINED,20260228,1
