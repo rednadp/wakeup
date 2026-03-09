@@ -1,16 +1,17 @@
-import { Pressable, StyleSheet, Text, View } from "react-native"
+import MaterialIcons from "@expo/vector-icons/MaterialIcons"
+import { Pressable, StyleSheet, View } from "react-native"
 
 type Props = {
-    label: string
+    icon: keyof typeof MaterialIcons.glyphMap
 }
 
-export function Button({label}: Props) {
+export function Arrow({icon}: Props) {
 
 
     return (
         <View style={style.contatiner}>
-            <Pressable style={style.button} onPress={() => {alert("Pulsado")}}>
-                <Text style={style.text}>{label}</Text>
+            <Pressable style={style.button} onPress={() => {alert("arrow")}}>
+                <MaterialIcons name={icon} size={48} color="#fff" />
             </Pressable>
         </View>
     )
@@ -18,12 +19,10 @@ export function Button({label}: Props) {
 
 const style = StyleSheet.create({
     contatiner : {
-        width: 200,
+        width: 68,
         height: 68,
-        marginHorizontal: 20,
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 3,
         borderColor: "#fff",
         borderWidth: 1,
         borderRadius: 10,
@@ -36,9 +35,5 @@ const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
-    },
-    text: {
-        fontSize: 16,
-        color: '#ff5b5b'
     }
 })

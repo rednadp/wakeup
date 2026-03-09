@@ -1,4 +1,4 @@
-import stops from '@/assets/stops.json'
+import stops from '@/assets/stops2.json'
 import { useLocation } from '@/hooks/useLocation'
 import { getDistanceInMeters } from '@/utils/distance'
 import { Platform, StyleSheet, Text, View } from 'react-native'
