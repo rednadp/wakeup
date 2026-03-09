@@ -4,7 +4,7 @@ type Props = {
     label: string
 }
 
-export function Button({label}: Props) {
+export function CenterButton({label}: Props) {
 
 
     return (
@@ -18,7 +18,6 @@ export function Button({label}: Props) {
 
 const style = StyleSheet.create({
     contatiner : {
-        width: 200,
         height: 68,
         marginHorizontal: 20,
         alignItems: 'center',
