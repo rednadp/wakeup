@@ -65,7 +65,7 @@ await new Promise(resolve => {
 })
 
 const dataExport = Object.values(results)
-fs.writeFileSync('./assets/stops2.json', JSON.stringify(dataExport, null, 2))
+fs.writeFileSync('./assets/stops.json', JSON.stringify(dataExport, null, 2))
 }
 
 crossData()

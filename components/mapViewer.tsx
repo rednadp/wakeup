@@ -1,25 +1,48 @@
-import stops from '@/assets/stops2.json'
+import stops from '@/assets/stops.json'
 import { useLocation } from '@/hooks/useLocation'
 import { getDistanceInMeters } from '@/utils/distance'
 import { Platform, StyleSheet, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 
-const latitude = 42.8617116
-const longitude = -2.6879542
+type Props = {
+    selectedLine: string | null,
+    setStop: (stopId: string) => void,
+    ref?: React.Ref<MapView>
+}
 
-export default function MapViewer() {
+export default function MapViewer({selectedLine, setStop, ref}: Props) {
     const {location, errorMsg} = useLocation()
+
+    
 
     if (errorMsg) return <View><Text>{errorMsg}</Text></View>
     if (!location) return <View><Text>Gettig location</Text></View>
 
 
     if (Platform.OS === 'android') {
+        function isThisStopInTheLine(currentStop: { lines: any[] }) {
+            let yesItIs = false
+            if (selectedLine == null) {
+                return true
+            }
+            currentStop.lines.map((line) => {
+                if (line.shortName == selectedLine) {
+                    yesItIs = true
+                }
+            })
+            return (
+                yesItIs
+            )
+        }
+
+
         return (
-        <MapView style={style.map} showsUserLocation={true} initialRegion={{latitude: location.coords.latitude, longitude: location.coords.longitude, latitudeDelta: 0.05, longitudeDelta: 0.05}}>
-            {stops.map(({id, name, lat, lon}, index) => {
+        <MapView ref={ref} style={style.map} showsUserLocation={true} initialRegion={{latitude: location.coords.latitude, longitude: location.coords.longitude, latitudeDelta: 0.05, longitudeDelta: 0.05}}>
+            {stops.filter(isThisStopInTheLine).map(({id, name, lat, lon}, index) => {
                 return (
-                    <Marker 
+                    <Marker
+                    identifier={id}
+                    onPress={() => setStop(id)}
                     id={id}
                     title={name}
                     coordinate={{latitude: lat, longitude: lon}}
@@ -28,7 +51,6 @@ export default function MapViewer() {
                     />
                 )
             })}
-            <Marker description={`Distance: ${getDistanceInMeters(location.coords.latitude, location.coords.longitude, latitude, longitude)}`} title='Hola' key={1} coordinate={{latitude: 42.8617116, longitude: -2.6879542}}></Marker>
         </MapView>
     )
     } else {
