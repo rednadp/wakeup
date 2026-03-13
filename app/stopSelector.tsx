@@ -13,6 +13,15 @@ export default function stopSelecter() {
 
     let selectedStop = stops.find((stop) => stop.id == selectedStopId)
 
+    const changeSelectedId = (newStop: string) => {
+        if (newStop == "0") {
+            console.log("errrror")
+        }
+        selectedStop = stops.find((stop) => stop.id == newStop)
+        setSelectedStopId(newStop)
+    }
+
+
     const mapRef = useRef<MapView>(null)
     function changeStop(addition: number) {
     /*
@@ -23,30 +32,49 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
     */
         
         const changeFocus = () => {
-        mapRef.current?.animateToRegion({
-            latitude: selectedStop?.lat ?? 42.85032,
-            longitude: selectedStop?.lon ?? -2.6612,
-            latitudeDelta: 0.01,
-            longitudeDelta: 0.01
-        }, 1000)
-    
-    }
-    
+            if (selectedLine != undefined || selectedStop != undefined) {
+                mapRef.current?.animateToRegion({
+                    latitude: selectedStop?.lat ?? 42,
+                    longitude: selectedStop?.lon ?? -2,
+                    latitudeDelta: 0.01,
+                    longitudeDelta: 0.01
+                }, 1000)
+            }
+        }
 
         if (selectedLine != null) {
-            let newStop = (selectedStop?.lines.find((line) => line.shortName == selectedLine)?.order ?? 0) + addition
-            setSelectedStopId(stops.find((stop) => stop.lines.find((line) => line.shortName == selectedLine && line.order == newStop))?.id ?? "0")
-            selectedStop = stops.find((stop) => stop.id == selectedStopId)
+            let newStop: number
+            console.log(selectedStop, "linea", selectedLine, "id", selectedStopId)
+            if (selectedStop != undefined) {
+                newStop = (selectedStop?.lines.find((line) => line.shortName == selectedLine)?.order ?? 0) + addition
+            } else {
+                if (addition > 0) {
+                    newStop = 1
+                } else {
+                    console.log(stops.filter((stop) => stop.lines.filter((line) => line.shortName == selectedLine)))
+                    let lineStops = stops.filter((stop) => stop.lines.find((line) => line.shortName == selectedLine))
+                    newStop = Math.max(...lineStops.map((stop) => {return (stop.lines.find((line) => line.shortName == selectedLine)?.order ?? 0)}))
+                    // newStop = (stops.filter((stop) => stop.lines.find((line) => line.shortName == selectedLine))?.length ?? -2) + 1
+                    console.log("Yendo a ultima", newStop)
+                    if (newStop == -1) {
+                        console.log(`new stop is invalid`, newStop)
+                    }
+                }
+            }
+            console.log(newStop, "cambio")
+            changeSelectedId(stops.find((stop) => stop.lines.find((line) => line.shortName == selectedLine && line.order == newStop))?.id ?? "0")
+            console.log(selectedStop)
             changeFocus()
+            
         } else {
             console.log("No hay linea seleccionada")
         }
     } 
     return (
         <View style={style.container}>
-            <MapViewer ref={mapRef} setStop={(stopId) => setSelectedStopId(stopId)} selectedLine={selectedLine} />
+            <MapViewer ref={mapRef} setStop={(stopId) => changeSelectedId(stopId)} selectedLine={selectedLine} />
             <View style={style.ui}>
-                <Button onPress={() => setSelectedLine(null)} label="Hola" />
+                <Button onPress={() => setSelectedLine(null)} label={selectedLine ?? "No selected line"} />
                 <View style={style.bottomRow}>
                     <Arrow onPress={() => changeStop(-1)} icon="arrow-back" />
                     <CenterButton onPress={() => setSelectedLine("1")} label={selectedStop ? selectedStop.name : "No selecionado"} />
