@@ -2,15 +2,16 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons"
 import { Pressable, StyleSheet, View } from "react-native"
 
 type Props = {
-    icon: keyof typeof MaterialIcons.glyphMap
+    icon: keyof typeof MaterialIcons.glyphMap,
+    onPress: () => void
 }
 
-export function Arrow({icon}: Props) {
+export function Arrow({icon, onPress}: Props) {
 
 
     return (
         <View style={style.contatiner}>
-            <Pressable style={style.button} onPress={() => {alert("arrow")}}>
+            <Pressable style={style.button} onPress={onPress}>
                 <MaterialIcons name={icon} size={48} color="#fff" />
             </Pressable>
         </View>
