@@ -1,4 +1,4 @@
-import stops from '@/assets/stops.json'
+import stops from '@/assets/stopsv2.json'
 import { useLocation } from '@/hooks/useLocation'
 import { getDistanceInMeters } from '@/utils/distance'
 import { Platform, StyleSheet, Text, View } from 'react-native'
@@ -26,7 +26,7 @@ export default function MapViewer({selectedLine, setStop, ref}: Props) {
                 return true
             }
             currentStop.lines.map((line) => {
-                if (line.shortName == selectedLine) {
+                if (line.name == selectedLine) {
                     yesItIs = true
                 }
             })

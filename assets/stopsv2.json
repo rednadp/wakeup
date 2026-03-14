@@ -1,0 +1,8834 @@
+[
+  {
+    "id": "1001",
+    "name": "Intermodal",
+    "lat": 42.85952,
+    "lon": -2.68017,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1002",
+    "name": "Juan de Garay / Paraguay",
+    "lat": 42.860319,
+    "lon": -2.677475,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 5
+      },
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 12
+      },
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 10
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1003",
+    "name": "Zaramaga / Reyes de Navarra",
+    "lat": 42.86123,
+    "lon": -2.67,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1006",
+    "name": "Portal Legutiano / Iparralde",
+    "lat": 42.854959,
+    "lon": -2.666627,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 2
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 13
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 11
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1007",
+    "name": "Valladolid 10",
+    "lat": 42.853359,
+    "lon": -2.66416,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 3
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1008",
+    "name": "Judimendi / San José",
+    "lat": 42.849993,
+    "lon": -2.661304,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1009",
+    "name": "Av. Santiago 43",
+    "lat": 42.847657,
+    "lon": -2.661766,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 5
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1010",
+    "name": "Av. Santiago / Sanidad",
+    "lat": 42.847054,
+    "lon": -2.666332,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 6
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1011",
+    "name": "Paz",
+    "lat": 42.844424,
+    "lon": -2.668424,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 7
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1012",
+    "name": "Catedral",
+    "lat": 42.844676,
+    "lon": -2.677132,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 8
+      },
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 12
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 1
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 20
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1014",
+    "name": "Teodoro Dublang 49",
+    "lat": 42.843184,
+    "lon": -2.684404,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1015",
+    "name": "Teodoro Dublang / Bustinzuri",
+    "lat": 42.84397,
+    "lon": -2.68778,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1016",
+    "name": "Adriano VI / Bustinzuri",
+    "lat": 42.848715,
+    "lon": -2.686201,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 11
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1017",
+    "name": "Av. Gasteiz / Bastiturri",
+    "lat": 42.84781,
+    "lon": -2.681558,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 2
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1018",
+    "name": "Av. Gasteiz 54",
+    "lat": 42.850461,
+    "lon": -2.680785,
+    "lines": []
+  },
+  {
+    "id": "1019",
+    "name": "Europa",
+    "lat": 42.852111,
+    "lon": -2.680455,
+    "lines": [
+      {
+        "name": "E3 - ESPECIAL / BUESA ARENA",
+        "shortName": "E3",
+        "color": "#ace000",
+        "order": 1
+      },
+      {
+        "name": "E3 - ESPECIAL / BUESA ARENA",
+        "shortName": "E3",
+        "color": "#ace000",
+        "order": 5
+      },
+      {
+        "name": "E4 - ESPECIAL / BUESA ARENA",
+        "shortName": "E4",
+        "color": "#6cb500",
+        "order": 5
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1020",
+    "name": "Av. Gasteiz 86",
+    "lat": 42.854766,
+    "lon": -2.679928,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1021",
+    "name": "Honduras",
+    "lat": 42.857417,
+    "lon": -2.680851,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 4
+      },
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1022",
+    "name": "Intermodal",
+    "lat": 42.85966,
+    "lon": -2.68227,
+    "lines": [
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1023",
+    "name": "Honduras",
+    "lat": 42.857253,
+    "lon": -2.681034,
+    "lines": []
+  },
+  {
+    "id": "1024",
+    "name": "Av. Gasteiz 93",
+    "lat": 42.854406,
+    "lon": -2.680108,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1025",
+    "name": "Europa",
+    "lat": 42.852489,
+    "lon": -2.680517,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      }
+    ]
+  },
+  {
+    "id": "1026",
+    "name": "Av. Gasteiz 73",
+    "lat": 42.850576,
+    "lon": -2.680936,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1027",
+    "name": "Av. Gasteiz 45",
+    "lat": 42.847541,
+    "lon": -2.68181,
+    "lines": []
+  },
+  {
+    "id": "1028",
+    "name": "Av. Gasteiz 19",
+    "lat": 42.844521,
+    "lon": -2.682503,
+    "lines": []
+  },
+  {
+    "id": "1029",
+    "name": "Portal Lasarte",
+    "lat": 42.838376,
+    "lon": -2.683828,
+    "lines": []
+  },
+  {
+    "id": "1030",
+    "name": "Salbatierrabide",
+    "lat": 42.837522,
+    "lon": -2.680013,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1031",
+    "name": "Nieves Cano / Unibersitatea",
+    "lat": 42.83856,
+    "lon": -2.67252,
+    "lines": [
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1032",
+    "name": "Nieves Cano / Comandante Izarduy",
+    "lat": 42.838483,
+    "lon": -2.669024,
+    "lines": [
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1033",
+    "name": "Castro Urdiales",
+    "lat": 42.83894,
+    "lon": -2.66575,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 8
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 8
+      },
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 4
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 4
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 3
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1034",
+    "name": "Los Herrán 4",
+    "lat": 42.842529,
+    "lon": -2.664236,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 9
+      },
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 4
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 23
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 12
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 9
+      },
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 5
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 5
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 4
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1035",
+    "name": "Los Herrán 36",
+    "lat": 42.845362,
+    "lon": -2.665148,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 6
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 6
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 5
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1036",
+    "name": "José Mardones",
+    "lat": 42.849357,
+    "lon": -2.665772,
+    "lines": [
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 2
+      },
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 7
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 7
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1037",
+    "name": "Los Herrán 86",
+    "lat": 42.852725,
+    "lon": -2.666794,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 8
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 8
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1038",
+    "name": "Plaza Zuberoa",
+    "lat": 42.854497,
+    "lon": -2.668132,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1039",
+    "name": "Reyes Católicos 1",
+    "lat": 42.85531,
+    "lon": -2.673,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1040",
+    "name": "Portal Arriaga / Venezuela",
+    "lat": 42.859424,
+    "lon": -2.674048,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 16
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 16
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1041",
+    "name": "Juan de Garay / Arriaga",
+    "lat": 42.86023,
+    "lon": -2.6786,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 17
+      },
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 2
+      },
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1042",
+    "name": "Zaramaga / Boulevard",
+    "lat": 42.86092,
+    "lon": -2.66849,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 1
+      },
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1043",
+    "name": "Zaramaga / Portal Gamarra",
+    "lat": 42.859032,
+    "lon": -2.662442,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1044",
+    "name": "Madrid 36",
+    "lat": 42.856849,
+    "lon": -2.659435,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1045",
+    "name": "Madrid / Andalucía",
+    "lat": 42.85481,
+    "lon": -2.657449,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 18
+      },
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1046",
+    "name": "Madrid / Valladolid",
+    "lat": 42.852973,
+    "lon": -2.657636,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 19
+      },
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1047",
+    "name": "Aragón",
+    "lat": 42.84917,
+    "lon": -2.65782,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 20
+      },
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1048",
+    "name": "Jacinto Benavente 7",
+    "lat": 42.845535,
+    "lon": -2.658204,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1049",
+    "name": "Jacinto Benavente / Florida",
+    "lat": 42.84199,
+    "lon": -2.658399,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1050",
+    "name": "Esmaltaciones",
+    "lat": 42.835691,
+    "lon": -2.659734,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 6
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 6
+      },
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1051",
+    "name": "Zumaquera",
+    "lat": 42.835865,
+    "lon": -2.665105,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 7
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 7
+      },
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1052",
+    "name": "Hegoalde",
+    "lat": 42.836197,
+    "lon": -2.667979,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1053",
+    "name": "Unibertsitatea",
+    "lat": 42.836687,
+    "lon": -2.672782,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1054",
+    "name": "Salbatierrabide",
+    "lat": 42.837578,
+    "lon": -2.680159,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1055",
+    "name": "Mendizorrotza",
+    "lat": 42.838486,
+    "lon": -2.687537,
+    "lines": [
+      {
+        "name": "A - BEI A / MENDIZORROTZA",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 14
+      },
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1056",
+    "name": "Castillo Fontecha / Castilla",
+    "lat": 42.840714,
+    "lon": -2.691179,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 17
+      },
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 2
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1058",
+    "name": "Castillo Fontecha / Aretxaga",
+    "lat": 42.843272,
+    "lon": -2.692012,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 18
+      },
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 3
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1059",
+    "name": "Pedro Asúa 12",
+    "lat": 42.847599,
+    "lon": -2.690602,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1061",
+    "name": "Mexico / Residencia",
+    "lat": 42.85316,
+    "lon": -2.68736,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1062",
+    "name": "Jose Atxotegi 22",
+    "lat": 42.855869,
+    "lon": -2.688569,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1063",
+    "name": "Euskal Herria",
+    "lat": 42.858213,
+    "lon": -2.684685,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1064",
+    "name": "Zaramaga / Boulevard",
+    "lat": 42.861328,
+    "lon": -2.668923,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 1
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1065",
+    "name": "Euskal Herria",
+    "lat": 42.858725,
+    "lon": -2.68394,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1066",
+    "name": "Txagorritxu",
+    "lat": 42.856547,
+    "lon": -2.690813,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1067",
+    "name": "Jose Atxotegi / Txagorritxu",
+    "lat": 42.855444,
+    "lon": -2.68828,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 8
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1068",
+    "name": "Mexico / Residencia",
+    "lat": 42.853335,
+    "lon": -2.687455,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 18
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 9
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1069",
+    "name": "Seminario",
+    "lat": 42.85065,
+    "lon": -2.688501,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 10
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1070",
+    "name": "Pedro Asúa 12",
+    "lat": 42.847584,
+    "lon": -2.690679,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1071",
+    "name": "Castillo Fontecha / Aretxaga",
+    "lat": 42.843297,
+    "lon": -2.692194,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      },
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 9
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1073",
+    "name": "Castillo Fontecha / Castilla",
+    "lat": 42.840616,
+    "lon": -2.691274,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      },
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 10
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1074",
+    "name": "Mendizorrotza",
+    "lat": 42.838281,
+    "lon": -2.686375,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 11
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1075",
+    "name": "Unibertsitatea",
+    "lat": 42.836645,
+    "lon": -2.672711,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1077",
+    "name": "Zumaquera",
+    "lat": 42.835769,
+    "lon": -2.664945,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 5
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1078",
+    "name": "Esmaltaciones",
+    "lat": 42.835582,
+    "lon": -2.65991,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1079",
+    "name": "Jacinto Benavente / Florida",
+    "lat": 42.842029,
+    "lon": -2.658296,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1080",
+    "name": "Jacinto Benavente 7",
+    "lat": 42.845451,
+    "lon": -2.658112,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1081",
+    "name": "Aragón",
+    "lat": 42.84917,
+    "lon": -2.657531,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1082",
+    "name": "Madrid / Aranzabela",
+    "lat": 42.852982,
+    "lon": -2.65728,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 5
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 10
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 35
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      }
+    ]
+  },
+  {
+    "id": "1083",
+    "name": "Madrid / 8 de marzo",
+    "lat": 42.854711,
+    "lon": -2.65716,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 6
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 11
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 36
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      }
+    ]
+  },
+  {
+    "id": "1084",
+    "name": "Madrid 36",
+    "lat": 42.857111,
+    "lon": -2.659247,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1085",
+    "name": "Zaramaga / Portal Gamarra",
+    "lat": 42.859247,
+    "lon": -2.662224,
+    "lines": [
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 13
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1086",
+    "name": "Durana Pueblo",
+    "lat": 42.890694,
+    "lon": -2.639972,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1087",
+    "name": "Portal Bergara 25",
+    "lat": 42.87356,
+    "lon": -2.64654,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 19
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 23
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1089",
+    "name": "Harrobi",
+    "lat": 42.862658,
+    "lon": -2.655928,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1090",
+    "name": "Portal Betoño / I.D. arte",
+    "lat": 42.861219,
+    "lon": -2.657711,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1091",
+    "name": "Portal Betoño 15",
+    "lat": 42.859631,
+    "lon": -2.659934,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1092",
+    "name": "Portal Gamarra / Deba",
+    "lat": 42.858928,
+    "lon": -2.66292,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 9
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1093",
+    "name": "Portal Legutiano 41",
+    "lat": 42.856752,
+    "lon": -2.664104,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 10
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1094",
+    "name": "Obispo Ballester",
+    "lat": 42.852544,
+    "lon": -2.666466,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1095",
+    "name": "José Mardones",
+    "lat": 42.849489,
+    "lon": -2.665759,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1096",
+    "name": "Manuel Iradier",
+    "lat": 42.84171,
+    "lon": -2.66771,
+    "lines": [
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 4
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 2
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 13
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 15
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1097",
+    "name": "Comandante Izarduy 14",
+    "lat": 42.837745,
+    "lon": -2.668876,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 3
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 16
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1099",
+    "name": "Judimendi / San Juan",
+    "lat": 42.845627,
+    "lon": -2.661374,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 17
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1100",
+    "name": "Judimendi 7",
+    "lat": 42.847254,
+    "lon": -2.66135,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 18
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1101",
+    "name": "Judimendi / San José",
+    "lat": 42.85032,
+    "lon": -2.6612,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1102",
+    "name": "Valladolid 3",
+    "lat": 42.853239,
+    "lon": -2.663149,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1103",
+    "name": "Reyes Navarra 10",
+    "lat": 42.854626,
+    "lon": -2.665579,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1104",
+    "name": "Portal Legutiano 50",
+    "lat": 42.856136,
+    "lon": -2.664763,
+    "lines": [
+      {
+        "name": "E4 - ESPECIAL / BUESA ARENA",
+        "shortName": "E4",
+        "color": "#6cb500",
+        "order": 2
+      },
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 9
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 9
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1105",
+    "name": "Portal Betoño 4",
+    "lat": 42.857626,
+    "lon": -2.662529,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 10
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 10
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1106",
+    "name": "Portal Betoño 16",
+    "lat": 42.859405,
+    "lon": -2.66008,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 11
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1107",
+    "name": "Portal Betoño / I.D. arte",
+    "lat": 42.861235,
+    "lon": -2.657526,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 12
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1108",
+    "name": "Betoño Pueblo",
+    "lat": 42.863197,
+    "lon": -2.654833,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 13
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1109",
+    "name": "Portal Zurbano / Biosfera",
+    "lat": 42.863657,
+    "lon": -2.64646,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 15
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1110",
+    "name": "Buesa Arena",
+    "lat": 42.864548,
+    "lon": -2.642978,
+    "lines": [
+      {
+        "name": "E3 - ESPECIAL / BUESA ARENA",
+        "shortName": "E3",
+        "color": "#ace000",
+        "order": 2
+      },
+      {
+        "name": "E4 - ESPECIAL / BUESA ARENA",
+        "shortName": "E4",
+        "color": "#6cb500",
+        "order": 3
+      },
+      {
+        "name": "E8 - ESPECIAL / BUESA ARENA",
+        "shortName": "E8",
+        "color": "#ffdd00",
+        "order": 2
+      },
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 16
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 16
+      },
+      {
+        "name": "N2 - ESPECIAL / BUESA ARENA",
+        "shortName": "N2",
+        "color": "#ffdd00",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1114",
+    "name": "Gamarra Mayor",
+    "lat": 42.876958,
+    "lon": -2.657355,
+    "lines": [
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 19
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1115",
+    "name": "Portal Gamarra 41",
+    "lat": 42.873297,
+    "lon": -2.658036,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1116",
+    "name": "Portal Gamarra 17",
+    "lat": 42.868932,
+    "lon": -2.659537,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1117",
+    "name": "Portal Gamarra / Cantábrico",
+    "lat": 42.864351,
+    "lon": -2.661015,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1118",
+    "name": "Portal Gamarra 3",
+    "lat": 42.86157,
+    "lon": -2.66195,
+    "lines": [
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1119",
+    "name": "Comandante Izarduy / Zumaquera",
+    "lat": 42.83585,
+    "lon": -2.669401,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 17
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1120",
+    "name": "Aretxabaleta / Pueblo",
+    "lat": 42.831532,
+    "lon": -2.672655,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 18
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 16
+      }
+    ]
+  },
+  {
+    "id": "1121",
+    "name": "Zalduondo",
+    "lat": 42.826893,
+    "lon": -2.674723,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 1
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 1
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 19
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 1
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1123",
+    "name": "Portal Gamarra 28",
+    "lat": 42.861468,
+    "lon": -2.661909,
+    "lines": [
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1124",
+    "name": "Portal Gamarra / Cantábrico",
+    "lat": 42.864255,
+    "lon": -2.660961,
+    "lines": [
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 16
+      }
+    ]
+  },
+  {
+    "id": "1125",
+    "name": "Portal Gamarra 46",
+    "lat": 42.868424,
+    "lon": -2.659514,
+    "lines": [
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1126",
+    "name": "Plaza Gamarra",
+    "lat": 42.874486,
+    "lon": -2.656142,
+    "lines": [
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1127",
+    "name": "Landaberde",
+    "lat": 42.869456,
+    "lon": -2.690402,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 22
+      }
+    ]
+  },
+  {
+    "id": "1128",
+    "name": "Donostia 49",
+    "lat": 42.86781,
+    "lon": -2.692894,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 23
+      }
+    ]
+  },
+  {
+    "id": "1130",
+    "name": "Donostia 11",
+    "lat": 42.862526,
+    "lon": -2.689064,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 2
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 16
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1131",
+    "name": "Portal Foronda 35",
+    "lat": 42.86292,
+    "lon": -2.684945,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 3
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1132",
+    "name": "Intermodal",
+    "lat": 42.860333,
+    "lon": -2.682977,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 4
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1133",
+    "name": "Portal Arriaga / Venezuela",
+    "lat": 42.859493,
+    "lon": -2.674184,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 6
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 11
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1134",
+    "name": "Portal Arriaga 21",
+    "lat": 42.855689,
+    "lon": -2.673449,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 7
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1135",
+    "name": "San Ignacio",
+    "lat": 42.852685,
+    "lon": -2.671687,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 8
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1136",
+    "name": "Francia / San Antón",
+    "lat": 42.850924,
+    "lon": -2.669471,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 9
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 14
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 12
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1137",
+    "name": "Francia 23",
+    "lat": 42.848625,
+    "lon": -2.668401,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 10
+      },
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 13
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1138",
+    "name": "Castilla 36",
+    "lat": 42.842158,
+    "lon": -2.684125,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 14
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 15
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1139",
+    "name": "Castilla / Etxezarra",
+    "lat": 42.841035,
+    "lon": -2.687382,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 15
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 16
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1140",
+    "name": "Castilla 80",
+    "lat": 42.839718,
+    "lon": -2.691197,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 16
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1141",
+    "name": "Castilla 120",
+    "lat": 42.838373,
+    "lon": -2.695062,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 17
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1142",
+    "name": "José María Cagigal 5",
+    "lat": 42.834453,
+    "lon": -2.699074,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1143",
+    "name": "Av. San Prudencio",
+    "lat": 42.83381,
+    "lon": -2.70222,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 19
+      }
+    ]
+  },
+  {
+    "id": "1144",
+    "name": "Camino Armentia",
+    "lat": 42.834701,
+    "lon": -2.703871,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 20
+      }
+    ]
+  },
+  {
+    "id": "1147",
+    "name": "Camino Armentia",
+    "lat": 42.834592,
+    "lon": -2.703881,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 3
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1148",
+    "name": "Armentia / Basílica",
+    "lat": 42.832501,
+    "lon": -2.701428,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 4
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1149",
+    "name": "José María Cagigal 4",
+    "lat": 42.834354,
+    "lon": -2.699258,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 5
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1150",
+    "name": "Castilla 107",
+    "lat": 42.838104,
+    "lon": -2.695366,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 6
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1151",
+    "name": "Castilla 67",
+    "lat": 42.839947,
+    "lon": -2.690089,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 7
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1152",
+    "name": "Castilla 47",
+    "lat": 42.840864,
+    "lon": -2.687469,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 8
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 8
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1153",
+    "name": "Castilla / Prado",
+    "lat": 42.842059,
+    "lon": -2.684042,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 9
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 9
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1154",
+    "name": "Castilla 9",
+    "lat": 42.843762,
+    "lon": -2.679193,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 10
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1155",
+    "name": "Ramiro Maeztu 6",
+    "lat": 42.847233,
+    "lon": -2.678895,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 11
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 11
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1156",
+    "name": "Ramiro Maeztu 20",
+    "lat": 42.849145,
+    "lon": -2.678264,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 12
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 12
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1157",
+    "name": "Domingo Beltrán",
+    "lat": 42.851969,
+    "lon": -2.67731,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 13
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1158",
+    "name": "Coronación ",
+    "lat": 42.852703,
+    "lon": -2.674941,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 14
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1159",
+    "name": "Portal Arriaga 20",
+    "lat": 42.855768,
+    "lon": -2.673323,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 15
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1160",
+    "name": "Intermodal",
+    "lat": 42.8602,
+    "lon": -2.68201,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1161",
+    "name": "Portal Foronda 24",
+    "lat": 42.862665,
+    "lon": -2.68366,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 19
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1162",
+    "name": "Portal Foronda 44",
+    "lat": 42.865021,
+    "lon": -2.685264,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 20
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1163",
+    "name": "Portal Foronda 64",
+    "lat": 42.868626,
+    "lon": -2.687715,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1164",
+    "name": "Bulevar Salburua / Plaza Unión",
+    "lat": 42.850987,
+    "lon": -2.650541,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 15
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1165",
+    "name": "8 de marzo 27",
+    "lat": 42.85445,
+    "lon": -2.65001,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 16
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1166",
+    "name": "8 de marzo 13",
+    "lat": 42.85525,
+    "lon": -2.654505,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 17
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1167",
+    "name": "Valladolid / Andalucía",
+    "lat": 42.851998,
+    "lon": -2.659115,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1168",
+    "name": "Basoa",
+    "lat": 42.854731,
+    "lon": -2.676896,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1169",
+    "name": "Bº Tomás Zumarraga / Argentina",
+    "lat": 42.850698,
+    "lon": -2.684852,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1170",
+    "name": "Bº Tomás Zumarraga 76",
+    "lat": 42.851174,
+    "lon": -2.687597,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 4
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1171",
+    "name": "Bº Tomás Zumarraga 71",
+    "lat": 42.851921,
+    "lon": -2.691413,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 6
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      }
+    ]
+  },
+  {
+    "id": "1172",
+    "name": "Av. Los Huetos / Ali",
+    "lat": 42.853797,
+    "lon": -2.699586,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      }
+    ]
+  },
+  {
+    "id": "1173",
+    "name": "Av. Los Huetos / Antonio Machado",
+    "lat": 42.854973,
+    "lon": -2.705121,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      }
+    ]
+  },
+  {
+    "id": "1174",
+    "name": "Av. Los Huetos / Borinbizkarra",
+    "lat": 42.85485,
+    "lon": -2.70512,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1175",
+    "name": "Av. Los Huetos / Ali",
+    "lat": 42.853648,
+    "lon": -2.699416,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1176",
+    "name": "Bº Tomás Zumarraga 71",
+    "lat": 42.851852,
+    "lon": -2.691356,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1177",
+    "name": "Adriano VI 17",
+    "lat": 42.847467,
+    "lon": -2.682497,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 8
+      },
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 15
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 19
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 12
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1178",
+    "name": "Adriano VI 1",
+    "lat": 42.84658,
+    "lon": -2.679838,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 9
+      },
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 13
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 13
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 13
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1179",
+    "name": "Prado",
+    "lat": 42.845945,
+    "lon": -2.674669,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 1
+      },
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1180",
+    "name": "Olaguibel 20",
+    "lat": 42.84622,
+    "lon": -2.66888,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 15
+      },
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 2
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 11
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1181",
+    "name": "Olaguibel / Ambulatorio",
+    "lat": 42.845833,
+    "lon": -2.665582,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 16
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1182",
+    "name": "Valladolid / Andalucía",
+    "lat": 42.851814,
+    "lon": -2.65913,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 4
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 34
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      }
+    ]
+  },
+  {
+    "id": "1183",
+    "name": "8 de marzo 10",
+    "lat": 42.85489,
+    "lon": -2.65459,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 7
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 37
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 34
+      }
+    ]
+  },
+  {
+    "id": "1184",
+    "name": "8 de marzo 24",
+    "lat": 42.854129,
+    "lon": -2.650263,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 20
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 8
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 38
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 35
+      }
+    ]
+  },
+  {
+    "id": "1185",
+    "name": "Urartea / Vitorialanda",
+    "lat": 42.858881,
+    "lon": -2.708418,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      }
+    ]
+  },
+  {
+    "id": "1186",
+    "name": "Urartea / Vitoriabidea",
+    "lat": 42.86044,
+    "lon": -2.709542,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      }
+    ]
+  },
+  {
+    "id": "1187",
+    "name": "Urartea / San Miguel Atxa",
+    "lat": 42.862369,
+    "lon": -2.710929,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      }
+    ]
+  },
+  {
+    "id": "1188",
+    "name": "Urartea / Alibarra",
+    "lat": 42.864184,
+    "lon": -2.712239,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      }
+    ]
+  },
+  {
+    "id": "1189",
+    "name": "Alibarra / Gobeo",
+    "lat": 42.862008,
+    "lon": -2.715211,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      }
+    ]
+  },
+  {
+    "id": "1190",
+    "name": "Alibarra / Bekolarra",
+    "lat": 42.860789,
+    "lon": -2.718366,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      }
+    ]
+  },
+  {
+    "id": "1191",
+    "name": "Alibarra / Mayoristas",
+    "lat": 42.858506,
+    "lon": -2.721773,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      }
+    ]
+  },
+  {
+    "id": "1192",
+    "name": "Asteguieta",
+    "lat": 42.86133,
+    "lon": -2.729698,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1193",
+    "name": "Av. Los Huetos / Mayoristas",
+    "lat": 42.857676,
+    "lon": -2.720773,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 17
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1194",
+    "name": "Av. Los Huetos / Azucarera",
+    "lat": 42.857164,
+    "lon": -2.717545,
+    "lines": [
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1195",
+    "name": "Av. Los Huetos / Mercedes",
+    "lat": 42.85657,
+    "lon": -2.714009,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 18
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1196",
+    "name": "Lermandabidea / Lanzadera",
+    "lat": 42.851132,
+    "lon": -2.723789,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      }
+    ]
+  },
+  {
+    "id": "1198",
+    "name": "Basaldea / Zurrupitieta",
+    "lat": 42.843489,
+    "lon": -2.732307,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 35
+      }
+    ]
+  },
+  {
+    "id": "1199",
+    "name": "Basaldea / Gerezpea",
+    "lat": 42.838462,
+    "lon": -2.730744,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 36
+      }
+    ]
+  },
+  {
+    "id": "1200",
+    "name": "Arriurdina / Basaldea",
+    "lat": 42.835595,
+    "lon": -2.730346,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 34
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 37
+      }
+    ]
+  },
+  {
+    "id": "1201",
+    "name": "Arriurdina / Júndiz",
+    "lat": 42.834811,
+    "lon": -2.734888,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 35
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 38
+      }
+    ]
+  },
+  {
+    "id": "1202",
+    "name": "Jundiz / Paduleta",
+    "lat": 42.832158,
+    "lon": -2.734681,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 36
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 39
+      }
+    ]
+  },
+  {
+    "id": "1203",
+    "name": "Paduleta / Uzbina",
+    "lat": 42.831252,
+    "lon": -2.738774,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 37
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 40
+      }
+    ]
+  },
+  {
+    "id": "1204",
+    "name": "Paduleta / Mendigorritxu",
+    "lat": 42.831132,
+    "lon": -2.743844,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 38
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 41
+      }
+    ]
+  },
+  {
+    "id": "1205",
+    "name": "Ariñez",
+    "lat": 42.829514,
+    "lon": -2.748318,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 40
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 43
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1206",
+    "name": "Paduleta / Mendigorritxu",
+    "lat": 42.831045,
+    "lon": -2.743824,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1207",
+    "name": "Paduleta / Uzbina",
+    "lat": 42.831167,
+    "lon": -2.738766,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1208",
+    "name": "Jundiz / Paduleta",
+    "lat": 42.832313,
+    "lon": -2.73453,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1209",
+    "name": "Arriurdina / Júndiz",
+    "lat": 42.834763,
+    "lon": -2.734678,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1210",
+    "name": "Arriurdina / Basaldea",
+    "lat": 42.835534,
+    "lon": -2.730227,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1211",
+    "name": "Basaldea / Gerezpea",
+    "lat": 42.838709,
+    "lon": -2.730666,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1212",
+    "name": "Basaldea / Zurripitieta",
+    "lat": 42.843647,
+    "lon": -2.732244,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1214",
+    "name": "Lermandabidea / Lanzadera",
+    "lat": 42.850666,
+    "lon": -2.72349,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1215",
+    "name": "Lermandabidea / Zuazobidea",
+    "lat": 42.84947,
+    "lon": -2.73367,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      }
+    ]
+  },
+  {
+    "id": "1217",
+    "name": "Zurrupitieta / Jundiz",
+    "lat": 42.841259,
+    "lon": -2.738386,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1218",
+    "name": "Zurrupitieta / Mendigorritxu",
+    "lat": 42.837916,
+    "lon": -2.745589,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1219",
+    "name": "Mendigorritxu",
+    "lat": 42.840585,
+    "lon": -2.746766,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1220",
+    "name": "Lermandabidea 4",
+    "lat": 42.844356,
+    "lon": -2.742692,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1221",
+    "name": "Lermandabidea / Zuazobidea",
+    "lat": 42.849075,
+    "lon": -2.733245,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 14
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 6
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1224",
+    "name": "Derechos Humanos 29",
+    "lat": 42.84189,
+    "lon": -2.705625,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1225",
+    "name": "Derechos Humanos / Reina Sofía",
+    "lat": 42.842172,
+    "lon": -2.70297,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1226",
+    "name": "Naciones Unidas / Paseo Unicef",
+    "lat": 42.846205,
+    "lon": -2.699992,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 3
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 11
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1227",
+    "name": "Naciones Unidas 1",
+    "lat": 42.845329,
+    "lon": -2.695142,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 4
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 12
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 4
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1228",
+    "name": "Av. Gasteiz / Juzgados",
+    "lat": 42.843981,
+    "lon": -2.682422,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1229",
+    "name": "Av. Santiago 46",
+    "lat": 42.84786,
+    "lon": -2.65951,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 19
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1230",
+    "name": "Portal Elorriaga 6",
+    "lat": 42.848354,
+    "lon": -2.655194,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 20
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1231",
+    "name": "Portal Elorriaga / Ambulatorio",
+    "lat": 42.84877,
+    "lon": -2.651825,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 21
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1232",
+    "name": "Varsovia",
+    "lat": 42.847226,
+    "lon": -2.650955,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 22
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1233",
+    "name": "Bulevar Salburua / La Valletta",
+    "lat": 42.845296,
+    "lon": -2.649596,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 23
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 10
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1234",
+    "name": "Bulevar Salburua 7",
+    "lat": 42.847131,
+    "lon": -2.649846,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 14
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1235",
+    "name": "Av. Bruselas 7",
+    "lat": 42.850699,
+    "lon": -2.651588,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1236",
+    "name": "Av. Bruselas / Joaquín Collar",
+    "lat": 42.851219,
+    "lon": -2.654706,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1237",
+    "name": "Madrid / Valladolid",
+    "lat": 42.85212,
+    "lon": -2.65778,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1238",
+    "name": "Av. Santiago 55",
+    "lat": 42.848,
+    "lon": -2.65905,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1239",
+    "name": "Naciones Unidas 1",
+    "lat": 42.845414,
+    "lon": -2.694801,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 16
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 19
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1240",
+    "name": "Zabalgana 39",
+    "lat": 42.844049,
+    "lon": -2.696862,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 20
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1241",
+    "name": "Derechos Humanos / Paseo Eskibel",
+    "lat": 42.841481,
+    "lon": -2.698711,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 21
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 5
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1242",
+    "name": "Derechos Humanos / Reina Sofía",
+    "lat": 42.842304,
+    "lon": -2.703002,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 22
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1243",
+    "name": "Derechos Humanos 34",
+    "lat": 42.841954,
+    "lon": -2.705793,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 23
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1245",
+    "name": "Antonio Machado / Pasaje",
+    "lat": 42.857404,
+    "lon": -2.700924,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 10
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 5
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1246",
+    "name": "Antonio Machado 58",
+    "lat": 42.858907,
+    "lon": -2.697072,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 11
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 6
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1247",
+    "name": "Wellington",
+    "lat": 42.859621,
+    "lon": -2.691954,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 7
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1248",
+    "name": "Heraclio Fournier 2",
+    "lat": 42.838547,
+    "lon": -2.665714,
+    "lines": [
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 5
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1249",
+    "name": "Heraclio Fournier 24",
+    "lat": 42.837217,
+    "lon": -2.66324,
+    "lines": [
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 6
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1250",
+    "name": "Heraclio Fournier 42",
+    "lat": 42.83585,
+    "lon": -2.660731,
+    "lines": [
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 7
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 16
+      }
+    ]
+  },
+  {
+    "id": "1251",
+    "name": "Venta la Estrella 6",
+    "lat": 42.837104,
+    "lon": -2.657172,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 7
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1255",
+    "name": "Venta la Estrella / Errekaleor",
+    "lat": 42.837836,
+    "lon": -2.65472,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1258",
+    "name": "Florida / Jacinto Benavente",
+    "lat": 42.841782,
+    "lon": -2.655914,
+    "lines": [
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1260",
+    "name": "Jesús Guridi",
+    "lat": 42.84414,
+    "lon": -2.66803,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 10
+      },
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 5
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 1
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 24
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 1
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 13
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1261",
+    "name": "Wellington",
+    "lat": 42.859909,
+    "lon": -2.69193,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1262",
+    "name": "Antonio Machado 17",
+    "lat": 42.85909,
+    "lon": -2.69717,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1263",
+    "name": "Antonio Machado / Pasaje",
+    "lat": 42.85734,
+    "lon": -2.70165,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1267",
+    "name": "Venta la caña",
+    "lat": 42.87421,
+    "lon": -2.681437,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1268",
+    "name": "Av. Los Huetos / Mercedes",
+    "lat": 42.856688,
+    "lon": -2.714014,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      }
+    ]
+  },
+  {
+    "id": "1270",
+    "name": "Av. Los Huetos / Mayoristas",
+    "lat": 42.857845,
+    "lon": -2.721099,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      }
+    ]
+  },
+  {
+    "id": "1271",
+    "name": "Luis Olariaga / Gernikako Arbola",
+    "lat": 42.868086,
+    "lon": -2.683161,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1272",
+    "name": "Portal Arriaga / Lascaray",
+    "lat": 42.87027,
+    "lon": -2.680412,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1273",
+    "name": "Arriaga / Pueblo",
+    "lat": 42.865677,
+    "lon": -2.676752,
+    "lines": [
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1275",
+    "name": "Micaela Portilla / Juzgados",
+    "lat": 42.843373,
+    "lon": -2.681452,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 12
+      },
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 13
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 14
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 2
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1276",
+    "name": "Derechos Humanos / Reina Sofía",
+    "lat": 42.841985,
+    "lon": -2.701259,
+    "lines": [
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1279",
+    "name": "Iruña / Lizarra",
+    "lat": 42.860241,
+    "lon": -2.696032,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1280",
+    "name": "Iruña / Baiona",
+    "lat": 42.862154,
+    "lon": -2.697824,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1281",
+    "name": "Baiona",
+    "lat": 42.863223,
+    "lon": -2.695877,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1282",
+    "name": "Donostia / Baiona",
+    "lat": 42.864575,
+    "lon": -2.690565,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 1
+      },
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 24
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 15
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1283",
+    "name": "Etxezarra",
+    "lat": 42.844805,
+    "lon": -2.692489,
+    "lines": [
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1295",
+    "name": "Prado",
+    "lat": 42.845922,
+    "lon": -2.674805,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 14
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 14
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1296",
+    "name": "Prado",
+    "lat": 42.845845,
+    "lon": -2.67521,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 10
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 10
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 14
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1297",
+    "name": "Catedral",
+    "lat": 42.84487,
+    "lon": -2.676875,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 13
+      },
+      {
+        "name": "E3 - ESPECIAL / BUESA ARENA",
+        "shortName": "E3",
+        "color": "#ace000",
+        "order": 4
+      },
+      {
+        "name": "E4 - ESPECIAL / BUESA ARENA",
+        "shortName": "E4",
+        "color": "#6cb500",
+        "order": 4
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 1
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 16
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 13
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1298",
+    "name": "Catedral",
+    "lat": 42.845036,
+    "lon": -2.67661,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 11
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 1
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 16
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 11
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1299",
+    "name": "Paz",
+    "lat": 42.844645,
+    "lon": -2.668372,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 11
+      },
+      {
+        "name": "4 - LAKUA / CATEDRAL",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1300",
+    "name": "Paz",
+    "lat": 42.844832,
+    "lon": -2.668326,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 14
+      },
+      {
+        "name": "9 - GAMARRA / GOIKOLARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1301",
+    "name": "Paz",
+    "lat": 42.845029,
+    "lon": -2.668275,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      },
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 3
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1302",
+    "name": "Paz",
+    "lat": 42.845362,
+    "lon": -2.668195,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1306",
+    "name": "Cementerio",
+    "lat": 42.834025,
+    "lon": -2.616074,
+    "lines": [
+      {
+        "name": "E1 - CEMENTERIO / EL SALVADOR",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 8
+      },
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1309",
+    "name": "Reyes Navarra 19",
+    "lat": 42.857364,
+    "lon": -2.66929,
+    "lines": [
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 1
+      },
+      {
+        "name": "G1 - LAKUA / ABETXUKO",
+        "shortName": "G1",
+        "color": "#ffdd00",
+        "order": 12
+      },
+      {
+        "name": "1 - CIRCULAR",
+        "shortName": "1",
+        "color": "#ffdd00",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1311",
+    "name": "Viveros",
+    "lat": 42.877902,
+    "lon": -2.642793,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 22
+      }
+    ]
+  },
+  {
+    "id": "1312",
+    "name": "Larragana / Portal Bergara",
+    "lat": 42.86716,
+    "lon": -2.65087,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1313",
+    "name": "Larragana / Kapelamendi",
+    "lat": 42.866845,
+    "lon": -2.645695,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1314",
+    "name": "Buesa Arena",
+    "lat": 42.864433,
+    "lon": -2.644102,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1315",
+    "name": "Portal Zurbano / Biosfera",
+    "lat": 42.863968,
+    "lon": -2.647538,
+    "lines": [
+      {
+        "name": "3 - BETOÑO / GOIKOLARRA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1316",
+    "name": "Larragana / Kapelamendi",
+    "lat": 42.867019,
+    "lon": -2.645639,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 17
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1317",
+    "name": "Larragana / Portal Bergara",
+    "lat": 42.867312,
+    "lon": -2.650818,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 18
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1318",
+    "name": "Portal Bergara / Eskalmendi",
+    "lat": 42.873594,
+    "lon": -2.646368,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 19
+      }
+    ]
+  },
+  {
+    "id": "1319",
+    "name": "Paula Montal / Escolapias",
+    "lat": 42.855731,
+    "lon": -2.700585,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 3
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1320",
+    "name": "Paula Montal / Casas Rojas",
+    "lat": 42.855688,
+    "lon": -2.703252,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 4
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1321",
+    "name": "Paula Montal / Casas Rojas",
+    "lat": 42.855695,
+    "lon": -2.703888,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1322",
+    "name": "Naciones Unidas / Mariturri",
+    "lat": 42.848882,
+    "lon": -2.70871,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 1
+      },
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 19
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1323",
+    "name": "Naciones Unidas / Salvador Dalí",
+    "lat": 42.848232,
+    "lon": -2.704776,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 2
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 10
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1324",
+    "name": "Naciones Unidas / Paseo Unicef",
+    "lat": 42.846358,
+    "lon": -2.700008,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1325",
+    "name": "Naciones Unidas / Salvador Dalí",
+    "lat": 42.848486,
+    "lon": -2.705075,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 18
+      }
+    ]
+  },
+  {
+    "id": "1326",
+    "name": "Bº Tomás Zumarraga 34",
+    "lat": 42.850262,
+    "lon": -2.681835,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1327",
+    "name": "Reyes Navarra / Telefonica",
+    "lat": 42.857481,
+    "lon": -2.669284,
+    "lines": [
+      {
+        "name": "8 - UNIBERTSITATEA",
+        "shortName": "8",
+        "color": "#faa61a",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1328",
+    "name": "Elvira Zulueta",
+    "lat": 42.840898,
+    "lon": -2.683429,
+    "lines": []
+  },
+  {
+    "id": "1329",
+    "name": "Reina Sofía",
+    "lat": 42.83637,
+    "lon": -2.709093,
+    "lines": [
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1330",
+    "name": "Mariturri / Oyón",
+    "lat": 42.839184,
+    "lon": -2.711509,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      },
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 8
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1331",
+    "name": "Iruña Veleia / Derechos Humanos",
+    "lat": 42.841604,
+    "lon": -2.708144,
+    "lines": [
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1334",
+    "name": "Bake kalea  /  Santiago Ospitalea  -  Paz / Hospital Santiago",
+    "lat": 42.846357,
+    "lon": -2.667951,
+    "lines": [
+      {
+        "name": "E3 - ESPECIAL / BUESA ARENA",
+        "shortName": "E3",
+        "color": "#ace000",
+        "order": 3
+      },
+      {
+        "name": "E4 - ESPECIAL / BUESA ARENA",
+        "shortName": "E4",
+        "color": "#6cb500",
+        "order": 1
+      },
+      {
+        "name": "E8 - ESPECIAL / BUESA ARENA",
+        "shortName": "E8",
+        "color": "#ffdd00",
+        "order": 1
+      },
+      {
+        "name": "N2 - ESPECIAL / BUESA ARENA",
+        "shortName": "N2",
+        "color": "#ffdd00",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1335",
+    "name": "Av. Los Huetos 2",
+    "lat": 42.853101,
+    "lon": -2.696454,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1336",
+    "name": "Av. Los Huetos / Jerónimo Roure",
+    "lat": 42.852499,
+    "lon": -2.694235,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 8
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1337",
+    "name": "Bulevar Salburua / Paseo de Atenas",
+    "lat": 42.851174,
+    "lon": -2.650741,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 21
+      },
+      {
+        "name": "G6 - SALBURUA / ARANBIZKARRA",
+        "shortName": "G6",
+        "color": "#faa61a",
+        "order": 9
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 39
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 36
+      }
+    ]
+  },
+  {
+    "id": "1338",
+    "name": "Bruselas / Portal Elorriaga",
+    "lat": 42.849741,
+    "lon": -2.647297,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 22
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 40
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 26
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 37
+      }
+    ]
+  },
+  {
+    "id": "1339",
+    "name": "Iliada 10",
+    "lat": 42.844763,
+    "lon": -2.644029,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 24
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 11
+      }
+    ]
+  },
+  {
+    "id": "1340",
+    "name": "Iliada / Gabriel Martínez Aragón",
+    "lat": 42.846052,
+    "lon": -2.639034,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 25
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 11
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      },
+      {
+        "name": "6 - PRADO / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1341",
+    "name": "Iliada / Nadine Gordimer",
+    "lat": 42.844893,
+    "lon": -2.644039,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 12
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1342",
+    "name": "Guillermo Elio",
+    "lat": 42.838989,
+    "lon": -2.652043,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 4
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 8
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 19
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1343",
+    "name": "Antonio Amat 47",
+    "lat": 42.838158,
+    "lon": -2.648196,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 9
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 20
+      }
+    ]
+  },
+  {
+    "id": "1344",
+    "name": "Antonio Amat 5",
+    "lat": 42.841423,
+    "lon": -2.644708,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 10
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1345",
+    "name": "Portal Zurbano 2",
+    "lat": 42.86401,
+    "lon": -2.65094,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 14
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1346",
+    "name": "Paula Montal / Escolapias",
+    "lat": 42.855604,
+    "lon": -2.70049,
+    "lines": [
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1347",
+    "name": "Henry Morton Stanley / Av Los Huetos",
+    "lat": 42.8529,
+    "lon": -2.69865,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 6
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1348",
+    "name": "Henry Morton Stanley / Océano Atlántico",
+    "lat": 42.850231,
+    "lon": -2.699469,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 7
+      },
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 1
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 16
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1349",
+    "name": "Henry Morton Stanley / Av Los Huetos",
+    "lat": 42.853094,
+    "lon": -2.698481,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 2
+      },
+      {
+        "name": "7 - BORINBIZKARRA / OLAGUIBEL",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1350",
+    "name": "Bremen 15",
+    "lat": 42.85349,
+    "lon": -2.70857,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 8
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 16
+      },
+      {
+        "name": "5 - ELEJALDE / OLAGUIBEL",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1351",
+    "name": "Bremen/Düsseldorf",
+    "lat": 42.853339,
+    "lon": -2.709234,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      }
+    ]
+  },
+  {
+    "id": "1352",
+    "name": "Las Arenas / Mercedes",
+    "lat": 42.85005,
+    "lon": -2.715156,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 25
+      }
+    ]
+  },
+  {
+    "id": "1353",
+    "name": "Las Arenas / Mercedes",
+    "lat": 42.849721,
+    "lon": -2.71441,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1354",
+    "name": "Antonio Machado/Paula Montal",
+    "lat": 42.855794,
+    "lon": -2.705069,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1355",
+    "name": "Seminario",
+    "lat": 42.851399,
+    "lon": -2.688886,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 5
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 19
+      }
+    ]
+  },
+  {
+    "id": "1356",
+    "name": "Consultas externas",
+    "lat": 42.854332,
+    "lon": -2.691678,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1357",
+    "name": "Txagorritxu",
+    "lat": 42.856217,
+    "lon": -2.690957,
+    "lines": [
+      {
+        "name": "A - BEI A / BOULEVARD",
+        "shortName": "A",
+        "color": "#f499c1",
+        "order": 8
+      }
+    ]
+  },
+  {
+    "id": "1358",
+    "name": "Consultas externas",
+    "lat": 42.854223,
+    "lon": -2.691701,
+    "lines": [
+      {
+        "name": "B - BEI B / MENDIZORROTZA",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1359",
+    "name": "Hegoalde",
+    "lat": 42.836099,
+    "lon": -2.667875,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 4
+      },
+      {
+        "name": "B - BEI B / BOULEVARD",
+        "shortName": "B",
+        "color": "#FB6E8A",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "1360",
+    "name": "Comandante Izarduy / Zumaquera",
+    "lat": 42.835918,
+    "lon": -2.669393,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 3
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 3
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1361",
+    "name": "Lermandabidea / Jundiz",
+    "lat": 42.846926,
+    "lon": -2.738759,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 29
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      }
+    ]
+  },
+  {
+    "id": "1362",
+    "name": "Jundiz / Zurrupitieta",
+    "lat": 42.841971,
+    "lon": -2.737848,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      }
+    ]
+  },
+  {
+    "id": "1363",
+    "name": "Zurrupitieta / Jundiz",
+    "lat": 42.841947,
+    "lon": -2.736915,
+    "lines": [
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 9
+      }
+    ]
+  },
+  {
+    "id": "1364",
+    "name": "Lermandabidea / Jundiz",
+    "lat": 42.846571,
+    "lon": -2.738264,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 13
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 5
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "id": "1365",
+    "name": "Lermandabidea / Araneta",
+    "lat": 42.844601,
+    "lon": -2.743405,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 30
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      }
+    ]
+  },
+  {
+    "id": "1366",
+    "name": "Mendigorritxu",
+    "lat": 42.84045,
+    "lon": -2.746847,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 31
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      }
+    ]
+  },
+  {
+    "id": "1367",
+    "name": "Zurrupitieta / Mendigorritxu",
+    "lat": 42.837865,
+    "lon": -2.745354,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      }
+    ]
+  },
+  {
+    "id": "1368",
+    "name": "Derechos Humanos / Paseo Eskibel",
+    "lat": 42.841355,
+    "lon": -2.698488,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1369",
+    "name": "Zabalgana 38",
+    "lat": 42.843984,
+    "lon": -2.696601,
+    "lines": [
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1372",
+    "name": "Teresa Calcuta 15",
+    "lat": 42.84764,
+    "lon": -2.692928,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 5
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1373",
+    "name": "Teodoro Dublang / Bustinzuri",
+    "lat": 42.84429,
+    "lon": -2.68863,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 6
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1374",
+    "name": "Juan Ángel Sáez",
+    "lat": 42.843786,
+    "lon": -2.685388,
+    "lines": [
+      {
+        "name": "10 - ALDAIA / PRADO",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 7
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 7
+      }
+    ]
+  },
+  {
+    "id": "1375",
+    "name": "Antonio Amat 24",
+    "lat": 42.838594,
+    "lon": -2.647696,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 3
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1376",
+    "name": "Venta La Estrella / Oreitiasolo",
+    "lat": 42.83693,
+    "lon": -2.6576,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 5
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1377",
+    "name": "Teresa Calcuta 8",
+    "lat": 42.847848,
+    "lon": -2.693162,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "id": "1378",
+    "name": "Zurrupitieta / Jundiz",
+    "lat": 42.841831,
+    "lon": -2.736818,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 34
+      }
+    ]
+  },
+  {
+    "id": "1379",
+    "name": "Iliada / Bulevar Salburua",
+    "lat": 42.844062,
+    "lon": -2.648385,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 1
+      },
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      },
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 13
+      },
+      {
+        "name": "10 - ALDAIA / LARREIN",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 22
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 1
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1380",
+    "name": "Antonio Amat 2",
+    "lat": 42.841343,
+    "lon": -2.645043,
+    "lines": [
+      {
+        "name": "10 - LARREIN / ALDAIA",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 2
+      },
+      {
+        "name": "10 - LARREIN / CATEDRAL",
+        "shortName": "10",
+        "color": "#00a54f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1381",
+    "name": "Iruña Veleia / Reina Sofía",
+    "lat": 42.83698,
+    "lon": -2.705547,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1382",
+    "name": "Iruña Veleia / Oyón",
+    "lat": 42.839655,
+    "lon": -2.707066,
+    "lines": [
+      {
+        "name": "4 - LAKUA / MARITURRI",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 22
+      },
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 1
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1383",
+    "name": "Iruña Veleia / Reina Sofía",
+    "lat": 42.836802,
+    "lon": -2.70574,
+    "lines": [
+      {
+        "name": "4 - MARITURRI / LAKUA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 2
+      },
+      {
+        "name": "4 - MARITURRI / PORTAL ARRIAGA",
+        "shortName": "4",
+        "color": "#ed1c24",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1384",
+    "name": "Mariturri / Oyón",
+    "lat": 42.838338,
+    "lon": -2.711634,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 24
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1385",
+    "name": "Mariturri / Reina Sofía",
+    "lat": 42.836463,
+    "lon": -2.710858,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 25
+      },
+      {
+        "name": "6 - ZABALGANA / ARKAIATE",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      },
+      {
+        "name": "6 - ZABALGANA / PRADO",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 1
+      },
+      {
+        "name": "6 - CATEDRAL / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 13
+      }
+    ]
+  },
+  {
+    "id": "1386",
+    "name": "Txagorritxu",
+    "lat": 42.857193,
+    "lon": -2.688955,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 17
+      }
+    ]
+  },
+  {
+    "id": "1387",
+    "name": "Lermandabidea / Ortuoste",
+    "lat": 42.849822,
+    "lon": -2.729465,
+    "lines": [
+      {
+        "name": "5 - JUNDIZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - ARIÑEZ ITV / PRADO",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 15
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 7
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 12
+      }
+    ]
+  },
+  {
+    "id": "1388",
+    "name": "Lermandabidea / Ortuoste",
+    "lat": 42.850236,
+    "lon": -2.730011,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      }
+    ]
+  },
+  {
+    "id": "1389",
+    "name": "Viveros",
+    "lat": 42.877517,
+    "lon": -2.642891,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 20
+      }
+    ]
+  },
+  {
+    "id": "1390",
+    "name": "Ariñez Concejo",
+    "lat": 42.828711,
+    "lon": -2.74981,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 39
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 42
+      }
+    ]
+  },
+  {
+    "id": "1391",
+    "name": "Pedro Asúa 21",
+    "lat": 42.84878,
+    "lon": -2.689551,
+    "lines": [
+      {
+        "name": "G3 - ARMENTIA / ZABALGANA",
+        "shortName": "G3",
+        "color": "#44c7f4",
+        "order": 14
+      }
+    ]
+  },
+  {
+    "id": "1392",
+    "name": "Esmaltaciones",
+    "lat": 42.835405,
+    "lon": -2.661227,
+    "lines": [
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1393",
+    "name": "Bº Tomás Zumarraga 98",
+    "lat": 42.852014,
+    "lon": -2.691394,
+    "lines": [
+      {
+        "name": "G4 - SANSOMENDI / LAKUA",
+        "shortName": "G4",
+        "color": "#ed1c24",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "1394",
+    "name": "Jacinto Benavente 2",
+    "lat": 42.845317,
+    "lon": -2.658369,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 21
+      }
+    ]
+  },
+  {
+    "id": "1395",
+    "name": "Jacinto Benavente/Florida",
+    "lat": 42.841919,
+    "lon": -2.658552,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 22
+      }
+    ]
+  },
+  {
+    "id": "1396",
+    "name": "Trianas",
+    "lat": 42.837143,
+    "lon": -2.662541,
+    "lines": [
+      {
+        "name": "E1 - EL SALVADOR / CEMENTERIO",
+        "shortName": "E1",
+        "color": "#d8f400",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1397",
+    "name": "Esmaltazioak  -  Esmaltaciones",
+    "lat": 42.835319,
+    "lon": -2.661179,
+    "lines": [
+      {
+        "name": "G2 - ADURTZA / SALBURUA",
+        "shortName": "G2",
+        "color": "#f499c1",
+        "order": 6
+      }
+    ]
+  },
+  {
+    "id": "1398",
+    "name": "Bake kalea  -  Paz",
+    "lat": 42.845745,
+    "lon": -2.668094,
+    "lines": [
+      {
+        "name": "7 - BORINBIZKARRA / PAZ",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 15
+      },
+      {
+        "name": "7 - PAZ / BORINBIZKARRA",
+        "shortName": "7",
+        "color": "#a76534",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1399",
+    "name": "Bruselas hiribidea  /  Elorriaga  -  Av. Bruselas  /  Elorriaga",
+    "lat": 42.848548,
+    "lon": -2.641641,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 23
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 41
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 27
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 32
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 38
+      }
+    ]
+  },
+  {
+    "id": "1400",
+    "name": "Gabriel Martínez Aragón",
+    "lat": 42.847517,
+    "lon": -2.638502,
+    "lines": [
+      {
+        "name": "5 - ELEJALDE / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 24
+      },
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      },
+      {
+        "name": "5 - JUNDIZ ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 42
+      },
+      {
+        "name": "5 - ASTEGIETA / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 28
+      },
+      {
+        "name": "5 - JUNDIZ ITV / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 33
+      },
+      {
+        "name": "5 - ARIÑEZ / ARKAIATE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 39
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 1
+      }
+    ]
+  },
+  {
+    "id": "1401",
+    "name": "Bruselas hiribidea  /  Elorriaga  -  Av. Bruselas  /  Elorriaga",
+    "lat": 42.848753,
+    "lon": -2.641533,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1402",
+    "name": "Bruselas hiribidea  /  Elorriagako atea  -  Av. Bruselas  /  Portal Elorriaga",
+    "lat": 42.849864,
+    "lon": -2.647277,
+    "lines": [
+      {
+        "name": "5 - ARKAIATE / JUNDIZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / ARIÑEZ ITV",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / ELEJALDE",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / ASTEGIETA",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      },
+      {
+        "name": "5 - ARKAIATE / REYES CATOLICOS",
+        "shortName": "5",
+        "color": "#8cc63f",
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "1403",
+    "name": "Asparrena",
+    "lat": 42.83105,
+    "lon": -2.67069,
+    "lines": [
+      {
+        "name": "3 - GOIKOLARRA / BETOÑO",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 2
+      },
+      {
+        "name": "3 - GOIKOLARRA / DURANA",
+        "shortName": "3",
+        "color": "#44c7f4",
+        "order": 2
+      },
+      {
+        "name": "9 - GOIKOLARRA / GAMARRA",
+        "shortName": "9",
+        "color": "#0066b3",
+        "order": 2
+      }
+    ]
+  },
+  {
+    "id": "1404",
+    "name": "Aragoi  -  Aragón",
+    "lat": 42.848648,
+    "lon": -2.656821,
+    "lines": [
+      {
+        "name": "6 - ARKAIATE / ZABALGANA",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      },
+      {
+        "name": "6 - ARKAIATE / CATEDRAL",
+        "shortName": "6",
+        "color": "#a066aa",
+        "order": 8
+      }
+    ]
+  }
+]

@@ -1,10 +1,13 @@
 const fs = require('fs');
 const csv = require('csv-parser');
-const { resolve } = require('dns');
+const { info } = require('console');
 
 const routes = {}
 const trip = {}
-const results = {};
+const results = {}
+const routeMainTrip = {}
+const tripStopCount = {}
+const usedOrders = {}
 
 async function crossData() {
   await new Promise(resolve => {
@@ -24,9 +27,36 @@ await new Promise(resolve => {
   fs.createReadStream('./gtfs/trips.txt')
   .pipe(csv())
   .on('data', (data) => {
-    trip[data.trip_id] = data.route_id
+    trip[data.trip_id] = {
+      routeId: data.route_id,
+      headsign: data.trip_headsign,
+      direction: data.direction_id
+    }
   }).on('end', resolve)
 })
+
+
+await new Promise(resolve => {
+  fs.createReadStream('./gtfs/stop_times.txt')
+    .pipe(csv())
+    .on('data', (data) => {
+      const tripId = data.trip_id
+      tripStopCount[tripId] = (tripStopCount[tripId] || 0) + 1
+    }).on('end', resolve)
+})
+
+for (const tripId in tripStopCount) {
+  const tripInfo = trip[tripId]
+  if (!tripInfo) continue
+  const infoRoute = routes[tripInfo.routeId]
+  if (!infoRoute) continue
+  const lineKey = `${infoRoute.shortName}_${tripInfo.headsign}`
+
+  if (!routeMainTrip[lineKey] || tripStopCount[tripId] > tripStopCount[routeMainTrip[lineKey]]) {
+    routeMainTrip[lineKey] = tripId
+  }
+}
+
 
 await new Promise(resolve => {
   fs.createReadStream('./gtfs/stops.txt')
@@ -46,18 +76,55 @@ await new Promise(resolve => {
   fs.createReadStream('./gtfs/stop_times.txt')
   .pipe(csv())
   .on('data', (data) => {
-    const routeId = trip[data.trip_id]
-    const infoRoute = routes[routeId]
+    const tripInfo = trip[data.trip_id]
+    if (!tripInfo) return
+    const infoRoute = routes[tripInfo.routeId]
     const stop = results[data.stop_id]
 
     if (stop && infoRoute) {
-      const alreadyExist = stop.lines.find(l => l.name === infoRoute.name)
-      if (!alreadyExist) {
+      const lineKey = `${infoRoute.shortName}_${infoRoute.headsign}`
+      
+      if (data.trip_id === routeMainTrip[lineKey]) {
+        const order = parseInt(data.stop_sequence)
+        if (!usedOrders[lineKey]) usedOrders[lineKey] = new Set()
+        usedOrders[lineKey].add(order)
         stop.lines.push({
-          name: infoRoute.name,
+          name: `${infoRoute.shortName} - ${infoRoute.headsign}`,
           shortName: infoRoute.shortName,
           color: infoRoute.color,
-          order: parseInt(data.stop_sequence)
+          order: order
+        })
+      }
+      
+    }
+    
+  }).on('end', resolve)
+})
+
+await new Promise(resolve => {
+  fs.createReadStream('./gtfs/stop_times.txt')
+    .pipe(csv())
+    .on('data', (data) => {
+      const tripInfo = trip[data.trip_id]
+      if (!tripInfo) return
+      const infoRoute = routes[tripInfo.routeId]
+      const stop = results[data.stop_id]
+
+      if (stop && infoRoute) {
+        const lineKey = `${infoRoute.shortName}_${tripInfo.headsign}`
+        const order = parseInt(data.stop_sequence)
+        const alreadyExist = stop.lines.find(l => l.name === `${tripInfo.shortName} - ${tripInfo.headsign}`)
+        const alreadyUsedInLine = usedOrders[lineKey] && usedOrders[lineKey].has(order)
+
+        if (!alreadyExist && !alreadyUsedInLine) {
+          if (!usedOrders[lineKey]) usedOrders[lineKey] = new Set()
+          usedOrders[lineKey].add(order)
+
+          stop.lines.push({
+            name: `${infoRoute.shortName} - ${tripInfo.headsign}`,
+            shortName: infoRoute.shortName,
+            color: infoRoute.color,
+            order: order
         })
       }
     }
@@ -65,10 +132,11 @@ await new Promise(resolve => {
 })
 
 const dataExport = Object.values(results)
-fs.writeFileSync('./assets/stops.json', JSON.stringify(dataExport, null, 2))
+fs.writeFileSync('./assets/stopsv2.json', JSON.stringify(dataExport, null, 2))
 }
 
 crossData()
+console.log("terminado")
 
 
 /*

@@ -1,4 +1,4 @@
-import stops from '@/assets/stops.json';
+import stops from '@/assets/stopsv2.json';
 import { Arrow } from "@/components/arrow";
 import { Button } from "@/components/Button";
 import { CenterButton } from "@/components/CenterButton";
@@ -46,15 +46,15 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
             let newStop: number
             console.log(selectedStop, "linea", selectedLine, "id", selectedStopId)
             if (selectedStop != undefined) {
-                newStop = (selectedStop?.lines.find((line) => line.shortName == selectedLine)?.order ?? 0) + addition
+                newStop = (selectedStop?.lines.find((line) => line.name == selectedLine)?.order ?? 0) + addition
             } else {
                 if (addition > 0) {
                     newStop = 1
                 } else {
-                    console.log(stops.filter((stop) => stop.lines.filter((line) => line.shortName == selectedLine)))
-                    let lineStops = stops.filter((stop) => stop.lines.find((line) => line.shortName == selectedLine))
-                    newStop = Math.max(...lineStops.map((stop) => {return (stop.lines.find((line) => line.shortName == selectedLine)?.order ?? 0)}))
-                    // newStop = (stops.filter((stop) => stop.lines.find((line) => line.shortName == selectedLine))?.length ?? -2) + 1
+                    console.log(stops.filter((stop) => stop.lines.filter((line) => line.name == selectedLine)))
+                    let lineStops = stops.filter((stop) => stop.lines.find((line) => line.name == selectedLine))
+                    newStop = Math.max(...lineStops.map((stop) => {return (stop.lines.find((line) => line.name == selectedLine)?.order ?? 0)}))
+                    // newStop = (stops.filter((stop) => stop.lines.find((line) => line.name == selectedLine))?.length ?? -2) + 1
                     console.log("Yendo a ultima", newStop)
                     if (newStop == -1) {
                         console.log(`new stop is invalid`, newStop)
@@ -62,7 +62,7 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
                 }
             }
             console.log(newStop, "cambio")
-            changeSelectedId(stops.find((stop) => stop.lines.find((line) => line.shortName == selectedLine && line.order == newStop))?.id ?? "0")
+            changeSelectedId(stops.find((stop) => stop.lines.find((line) => line.name == selectedLine && line.order == newStop))?.id ?? "0")
             console.log(selectedStop)
             changeFocus()
             
@@ -77,7 +77,7 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
                 <Button onPress={() => setSelectedLine(null)} label={selectedLine ?? "No selected line"} />
                 <View style={style.bottomRow}>
                     <Arrow onPress={() => changeStop(-1)} icon="arrow-back" />
-                    <CenterButton onPress={() => setSelectedLine("1")} label={selectedStop ? selectedStop.name : "No selecionado"} />
+                    <CenterButton onPress={() => setSelectedLine("A - BEI A / BOULEVARD")} label={selectedStop ? selectedStop.name : "No selecionado"} />
                     <Arrow onPress={() => changeStop(1)} icon="arrow-forward" />
                 </View>
             </View>
