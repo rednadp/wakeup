@@ -2,6 +2,7 @@ import stops from '@/assets/stopsv2.json';
 import { Arrow } from "@/components/arrow";
 import { Button } from "@/components/Button";
 import { CenterButton } from "@/components/CenterButton";
+import ContinueButton from '@/components/ContinueButton';
 import LineSelector from '@/components/LineSelector';
 import MapViewer from "@/components/mapViewer";
 import { useRef, useState } from "react";
@@ -76,6 +77,7 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
         <View style={style.container}>
             <MapViewer ref={mapRef} setStop={(stopId) => changeSelectedId(stopId)} selectedLine={selectedLine} />
             {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false)}} />}
+            {(stops != undefined || isLineSelectorVisible == false) && <ContinueButton label='Select ' onPress={() => null}/>}{/* aun no funciona, still not working */}
             <View style={style.ui}>
                 <Button onPress={() => setIsLineSelectorVisible((isLineSelectorVisible ? false: true))} label={selectedLine ?? "No selected line"} />
                 <View style={style.bottomRow}>
