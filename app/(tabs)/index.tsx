@@ -1,4 +1,3 @@
-import MapViewer from "@/components/mapViewer";
 import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
@@ -8,7 +7,6 @@ export default function Index() {
       
       <Text style={styles.text}>Hello world</Text>
       <Link href='/about' style={styles.button}>About</Link>
-      <MapViewer></MapViewer>
     </View>
   );
 }
