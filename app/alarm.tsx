@@ -73,7 +73,7 @@ export default function Alarm() {
 
 
 
-const style = StyleSheet.create({
+const style = StyleSheet.create({   
     container: {
         backgroundColor: '#F8F9FA',
         flex: 1,
