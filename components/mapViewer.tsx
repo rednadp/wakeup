@@ -16,7 +16,7 @@ export default function MapViewer({selectedLine, setStop, ref}: Props) {
     
 
     if (errorMsg) return <View><Text>{errorMsg}</Text></View>
-    if (!location) return <View><Text>Gettig location</Text></View>
+    if (!location) return <View><Text>Getting location</Text></View>
 
 
     if (Platform.OS === 'android') {

@@ -13,7 +13,8 @@ export default function RootLayout() {
 export default function RootLayout() {
   return (
     <Stack>
-      <Stack.Screen name="stopSelector" />
+      <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
+      <Stack.Screen name="Alarm" options={{title: 'Set alarm'}} />
     </Stack>
   )
 }
