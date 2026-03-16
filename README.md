@@ -16,6 +16,26 @@ Thanks to the GTFS system it should be easily adaptable to any city even if it w
 
 - Build the app
 
+## How to build
+
+- Install explo cli
+
+   ```bash
+   npm install -g eas-cli
+   ```
+
+- Login in expo
+
+   ```
+   eas login
+   ```
+
+- Build the proyect
+
+   ```bash
+   eas build --platform android --profile preview
+   ```
+
 ## Characteristics
 
 - Filter lines
@@ -45,50 +65,3 @@ The built app is prepared for my city, so if you tried it, maybe you would have 
 I have tried to use the AI as less as possible. It has been used to troubleshoot and as a reference (like Stack Overflow or Expo documentation). I have read messages in slack about how you take IA usage seriously. I hope this is not a problem.
 
 Finally, I can stop feeling a sense of impostor syndrome. I feel like anyone else could have made this silly project much faster and better than I did. I have like the sense that the quality requirements are high and that I have spent a lot of time doing this for what, in fact, it is. I would really feel sad if you reduced hours but if that is what you have to do due to the quality standards, do it. Anyways, thanks for making this possible!
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
