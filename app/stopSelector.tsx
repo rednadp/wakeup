@@ -5,6 +5,7 @@ import { CenterButton } from "@/components/CenterButton";
 import ContinueButton from '@/components/ContinueButton';
 import LineSelector from '@/components/LineSelector';
 import MapViewer from "@/components/mapViewer";
+import { useRouter } from 'expo-router';
 import { useRef, useState } from "react";
 import { StyleSheet, View } from "react-native";
 import MapView from 'react-native-maps';
@@ -13,6 +14,7 @@ export default function stopSelecter() {
     const [selectedStopId, setSelectedStopId] = useState<string>("0")
     const [selectedLine, setSelectedLine] = useState<null | string>(null)
     const [isLineSelectorVisible, setIsLineSelectorVisible] = useState(false)
+    const router = useRouter()
 
     let selectedStop = stops.find((stop) => stop.id == selectedStopId)
 
@@ -77,12 +79,12 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
         <View style={style.container}>
             <MapViewer ref={mapRef} setStop={(stopId) => changeSelectedId(stopId)} selectedLine={selectedLine} />
             {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false)}} />}
-            {(stops != undefined || isLineSelectorVisible == false) && <ContinueButton label='Select ' onPress={() => null}/>}{/* aun no funciona, still not working */}
+            {(!isLineSelectorVisible && selectedStop) && <ContinueButton label='Select ' onPress={() => router.push({pathname: '/alarm', params: {id: selectedStop?.id, stopName: selectedStop?.name, shortName: selectedStop?.lines.find((line) => line.name == selectedLine)?.shortName, lineColor: selectedStop?.lines.find((line) => line.name == selectedLine)?.color, lineName: selectedLine, order: selectedStop?.lines.find((line) => line.name == selectedLine)?.order, lat: selectedStop?.lat, lon: selectedStop?.lon}})}/>}
             <View style={style.ui}>
                 <Button onPress={() => setIsLineSelectorVisible((isLineSelectorVisible ? false: true))} label={selectedLine ?? "No selected line"} />
                 <View style={style.bottomRow}>
                     <Arrow onPress={() => changeStop(-1)} icon="arrow-back" />
-                    <CenterButton onPress={() => setSelectedLine("4 - LAKUA / MARITURRI")} label={selectedStop ? selectedStop.name : "No selecionado"} />
+                    <CenterButton onPress={() => null} label={selectedStop ? selectedStop.name : "No selecionado"} />
                     <Arrow onPress={() => changeStop(1)} icon="arrow-forward" />
                 </View>
             </View>
