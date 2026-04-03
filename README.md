@@ -65,3 +65,11 @@ The built app is prepared for my city, so if you tried it, maybe you would have 
 I have tried to use the AI as less as possible. It has been used to troubleshoot and as a reference (like Stack Overflow or Expo documentation). I have read messages in slack about how you take IA usage seriously. I hope this is not a problem.
 
 Finally, I can stop feeling a sense of impostor syndrome. I feel like anyone else could have made this silly project much faster and better than I did. I have like the sense that the quality requirements are high and that I have spent a lot of time doing this for what, in fact, it is. I would really feel sad if you reduced hours but if that is what you have to do due to the quality standards, do it. Anyways, thanks for making this possible!
+
+# Photos
+
+![Screenshot_20260317_002317_wakeup](https://github.com/user-attachments/assets/007ddd27-2b8b-4069-b142-5de34b28a3fe)
+![Screenshot_20260317_002329_wakeup](https://github.com/user-attachments/assets/3db1e2fd-f285-4756-b49e-8a8ddbc1a86f)
+![Screenshot_20260317_002336_wakeup](https://github.com/user-attachments/assets/e3afa05c-de80-41c6-842b-ed842b808d6e)
+![Screenshot_20260317_002343_wakeup](https://github.com/user-attachments/assets/93879a37-2021-435a-b03b-61a660703149)
+
