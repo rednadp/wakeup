@@ -6,7 +6,7 @@ import ContinueButton from '@/components/ContinueButton';
 import LineSelector from '@/components/LineSelector';
 import MapViewer from "@/components/mapViewer";
 import { useRouter } from 'expo-router';
-import { useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { StyleSheet, View } from "react-native";
 import MapView from 'react-native-maps';
 
@@ -16,18 +16,44 @@ export default function stopSelecter() {
     const [isLineSelectorVisible, setIsLineSelectorVisible] = useState(false)
     const router = useRouter()
 
-    let selectedStop = stops.find((stop) => stop.id == selectedStopId)
+    
 
-    const changeSelectedId = (newStop: string) => {
-        if (newStop == "0") {
-            console.log("errrror")
-        }
-        selectedStop = stops.find((stop) => stop.id == newStop)
-        setSelectedStopId(newStop)
-    }
+    const selectedStop = useMemo(() => {
+        return stops.find((stop) => stop.id == selectedStopId)
+    }, [selectedStopId])
+
+    useEffect(() => {
+        changeFocus()
+    }, [selectedStopId, selectedLine])
 
 
     const mapRef = useRef<MapView>(null)
+
+    const checkIsStopInLine = (newLine: string) => {
+        if (selectedStop?.lines.find((line) => line.name == newLine) == undefined) {
+            setSelectedStopId("0")    
+        }
+    }
+
+        const changeFocus = () => {
+            console.log(selectedStop, "EPA")
+            if (selectedLine != undefined && selectedStop != undefined) {
+                console.log("NOP")
+                mapRef.current?.animateToRegion({
+                    latitude: selectedStop?.lat ?? 92,
+                    longitude: selectedStop?.lon ?? -2,
+                    latitudeDelta: 0.01,
+                    longitudeDelta: 0.01
+                }, 1000)
+            } else {
+                let lineStops = stops.filter((stop) => stop.lines.find((line) => line.name == selectedLine)).map((stop) => stop.id)
+                console.log(lineStops)
+                mapRef.current?.fitToSuppliedMarkers(lineStops, {edgePadding : {
+                    top: 50, left: 50, right: 50, bottom: 50
+                }})
+            }
+        }
+
     function changeStop(addition: number) {
     /*
 mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
@@ -36,16 +62,9 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
         animated: true
     */
         
-        const changeFocus = () => {
-            if (selectedLine != undefined && selectedStop != undefined) {
-                mapRef.current?.animateToRegion({
-                    latitude: selectedStop?.lat ?? 42,
-                    longitude: selectedStop?.lon ?? -2,
-                    latitudeDelta: 0.01,
-                    longitudeDelta: 0.01
-                }, 1000)
-            }
-        }
+
+
+        
 
         if (selectedLine != null) {
             let newStop: number
@@ -55,7 +74,8 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
             } else {
                 if (addition > 0) {
                     newStop = 1
-                } else {
+                } 
+                else if (addition < 0) {
                     console.log(stops.filter((stop) => stop.lines.filter((line) => line.name == selectedLine)))
                     let lineStops = stops.filter((stop) => stop.lines.find((line) => line.name == selectedLine))
                     newStop = Math.max(...lineStops.map((stop) => {return (stop.lines.find((line) => line.name == selectedLine)?.order ?? 0)}))
@@ -64,12 +84,13 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
                     if (newStop == -1) {
                         console.log(`new stop is invalid`, newStop)
                     }
+                } else {
+                    newStop = 0
                 }
             }
             console.log(newStop, "cambio")
-            changeSelectedId(stops.find((stop) => stop.lines.find((line) => line.name == selectedLine && line.order == newStop))?.id ?? "0")
+            setSelectedStopId(stops.find((stop) => stop.lines.find((line) => line.name == selectedLine && line.order == newStop))?.id ?? "0")
             console.log(selectedStop)
-            changeFocus()
             
         } else {
             console.log("No hay linea seleccionada")
@@ -77,8 +98,8 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
     } 
     return (
         <View style={style.container}>
-            <MapViewer ref={mapRef} setStop={(stopId) => changeSelectedId(stopId)} selectedLine={selectedLine} />
-            {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false)}} />}
+            <MapViewer ref={mapRef} setStop={(stopId) => setSelectedStopId(stopId)} selectedLine={selectedLine} />
+            {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false); checkIsStopInLine(line)}} />}
             {(!isLineSelectorVisible && selectedStop) && <ContinueButton label='Select ' onPress={() => router.push({pathname: '/alarm', params: {id: selectedStop?.id, stopName: selectedStop?.name, shortName: selectedStop?.lines.find((line) => line.name == selectedLine)?.shortName, lineColor: selectedStop?.lines.find((line) => line.name == selectedLine)?.color, lineName: selectedLine, order: selectedStop?.lines.find((line) => line.name == selectedLine)?.order, lat: selectedStop?.lat, lon: selectedStop?.lon}})}/>}
             <View style={style.ui}>
                 <Button onPress={() => setIsLineSelectorVisible((isLineSelectorVisible ? false: true))} label={selectedLine ?? "No selected line"} />
