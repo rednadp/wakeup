@@ -23,7 +23,7 @@ type Props = {
 
 export default function LineSelector ({selectedLine, setLine}: Props) {
     const lines = obtainLines()
-    console.log(lines)
+ //   console.log(lines)
     return (
         <ScrollView
             
