@@ -15,24 +15,32 @@ export default function stopSelecter() {
     const [selectedLine, setSelectedLine] = useState<null | string>(null)
     const [isLineSelectorVisible, setIsLineSelectorVisible] = useState(false)
     const router = useRouter()
+    const [forceUpdate, setForceUpdate] = useState(0)
 
     
 
     const selectedStop = useMemo(() => {
+        console.log("Valor hactualizado")
         return stops.find((stop) => stop.id == selectedStopId)
     }, [selectedStopId])
 
     useEffect(() => {
         changeFocus()
-    }, [selectedStopId, selectedLine])
+    }, [selectedStopId, selectedLine, forceUpdate])
 
 
     const mapRef = useRef<MapView>(null)
 
-    const checkIsStopInLine = (newLine: string) => {
-        if (selectedStop?.lines.find((line) => line.name == newLine) == undefined) {
-            setSelectedStopId("0")    
+    const updateLine = () => {
+//        if (selectedStop?.lines.find((line) => line.name == newLine) == undefined) {
+//            setSelectedStopId("0")    
+//        }
+        if (selectedStopId == "0") {
+            setForceUpdate(forceUpdate + 1)
+        } else {
+            setSelectedStopId("0")
         }
+        
     }
 
         const changeFocus = () => {
@@ -48,9 +56,12 @@ export default function stopSelecter() {
             } else {
                 let lineStops = stops.filter((stop) => stop.lines.find((line) => line.name == selectedLine)).map((stop) => stop.id)
                 console.log(lineStops)
-                mapRef.current?.fitToSuppliedMarkers(lineStops, {edgePadding : {
-                    top: 50, left: 50, right: 50, bottom: 50
-                }})
+                setTimeout(() => { // This is quite strange but  works :)
+                    mapRef.current?.fitToSuppliedMarkers(lineStops, {edgePadding : {
+                        top: 50, left: 50, right: 50, bottom: 50
+                    }})
+                }, 150)
+                
             }
         }
 
@@ -99,7 +110,7 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
     return (
         <View style={style.container}>
             <MapViewer ref={mapRef} setStop={(stopId) => setSelectedStopId(stopId)} selectedLine={selectedLine} />
-            {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false); checkIsStopInLine(line)}} />}
+            {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false); updateLine()}} />}
             {(!isLineSelectorVisible && selectedStop) && <ContinueButton label='Select ' onPress={() => router.push({pathname: '/alarm', params: {id: selectedStop?.id, stopName: selectedStop?.name, shortName: selectedStop?.lines.find((line) => line.name == selectedLine)?.shortName, lineColor: selectedStop?.lines.find((line) => line.name == selectedLine)?.color, lineName: selectedLine, order: selectedStop?.lines.find((line) => line.name == selectedLine)?.order, lat: selectedStop?.lat, lon: selectedStop?.lon}})}/>}
             <View style={style.ui}>
                 <Button onPress={() => setIsLineSelectorVisible((isLineSelectorVisible ? false: true))} label={selectedLine ?? "No selected line"} />
