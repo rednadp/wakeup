@@ -20,7 +20,7 @@ export default function stopSelecter() {
     
 
     const selectedStop = useMemo(() => {
-        console.log("Valor hactualizado")
+        console.log("Valor actualizado")
         return stops.find((stop) => stop.id == selectedStopId)
     }, [selectedStopId])
 
@@ -48,8 +48,8 @@ export default function stopSelecter() {
             if (selectedLine != undefined && selectedStop != undefined) {
                 console.log("NOP")
                 mapRef.current?.animateToRegion({
-                    latitude: selectedStop?.lat ?? 92,
-                    longitude: selectedStop?.lon ?? -2,
+                    latitude: selectedStop?.lat,
+                    longitude: selectedStop?.lon,
                     latitudeDelta: 0.01,
                     longitudeDelta: 0.01
                 }, 1000)

@@ -9,6 +9,12 @@ export default function Index() {
     return (
         <View style={style.container}>
         <Text style={style.text}>Wake up</Text>
+        <Link asChild href='/citySelector'>
+            <TouchableOpacity style={style.mainButton}>
+                <Ionicons name="arrow-forward" size={24} color={'#fff'} />
+                <Text style={style.mainButtonText}>Select city</Text>
+            </TouchableOpacity>  
+        </Link>
         <Link asChild href='/stopSelector'>
             <TouchableOpacity style={style.mainButton}>
                 <Ionicons name="arrow-forward" size={24} color={'#fff'} />
