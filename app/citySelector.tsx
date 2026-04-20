@@ -1,17 +1,30 @@
-import { useState } from "react"
-import { ActivityIndicator, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
+import { useEffect, useState } from "react"
+import { ActivityIndicator, FlatList, StyleSheet, Text, TextInput, View } from "react-native"
 export default function citySelector() {
-    const [data, setData] = useState([])
+    const [data, setData] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
     const [search, setSearch] = useState("")
 
     const apiKey = process.env.EXPO_PUBLIC_TRANSIT_LAND_API_KEY
 
+    useEffect(() => {
+        if (search.length <= 3) return
+        setLoading(true)
+        const timer = setTimeout(() => {
+            getCities()
+        }, 500)
+
+        return () => {
+            clearTimeout(timer)
+        }
+    }, [search])
+
+
     const getCities = async () => {
         try {
             const response = await fetch(`https://transit.land/api/v2/rest/feeds?apikey=${apiKey}&search=${search}`)
             const json = await response.json()
-            setData(json)
+            setData(json.feeds)
             console.log(json)
         }   catch (err) {
             console.log(err)
@@ -20,14 +33,10 @@ export default function citySelector() {
         }
     }
 
-    const chageSearch = (text: string) => {
-        setSearch(text)
-    }
-
     return (
         <View style={style.container}>
-            <TextInput style={style.searchBar} value={search} onChangeText={(text) => chageSearch(text)} placeholder="Buscar ciudad" underlineColorAndroid="transparent"></TextInput>
-            {search.length < 3 ? 
+            <TextInput style={style.searchBar} value={search} onChangeText={(text) => setSearch(text)} placeholder="Buscar ciudad" underlineColorAndroid="transparent"></TextInput>
+            {search.length <= 3 ? 
             <View style={style.mainUi}>
                 <View style={style.aplogizeText}>
                     <Text style={style.text}>Please, write at least 3 letters</Text>
@@ -35,13 +44,22 @@ export default function citySelector() {
                 </View>
             </View>
             : 
-            <View style={style.mainUi}>
-                <TouchableOpacity style={style.mainButton} onPress={getCities}>
-                <Text>Search {search}</Text>
-                </TouchableOpacity>
+             (loading == true ? 
+             <View style={style.mainUi}>
                 <Text>Loading...</Text>
                 <ActivityIndicator />
             </View>
+            :
+            <View>
+                <FlatList data={data} keyExtractor={(city) => city.id.toString()} 
+                    renderItem={({item}) => {
+                        return (
+                            <Text>{item.id}</Text>
+                        )
+                    }}
+                    />
+                <Text>Hola</Text>
+            </View>)
             }
         </View>
     )
