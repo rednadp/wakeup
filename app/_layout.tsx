@@ -16,6 +16,7 @@ export default function RootLayout() {
       <Stack.Screen name="index" options={{headerShown: false}}/>
       <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
       <Stack.Screen name="citySelector" options={{title: 'Select your city'}}/>
+      <Stack.Screen name="downloadCity" options={{title: 'Downloading your city', }}/>
       <Stack.Screen name="alarm" options={{title: 'Set alarm'}} />
     </Stack>
   )

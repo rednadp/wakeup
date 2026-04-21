@@ -1,9 +1,12 @@
+import { useRouter } from "expo-router"
 import { useEffect, useState } from "react"
-import { ActivityIndicator, FlatList, StyleSheet, Text, TextInput, View } from "react-native"
+import { ActivityIndicator, Alert, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 export default function citySelector() {
     const [data, setData] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
-    const [search, setSearch] = useState("")
+    const [search, setSearch] = useState("eusko")
+    const router = useRouter()
+
 
     const apiKey = process.env.EXPO_PUBLIC_TRANSIT_LAND_API_KEY
 
@@ -33,6 +36,15 @@ export default function citySelector() {
         }
     }
 
+    const selectedCity = (id: string) => {
+        
+        Alert.alert("Select", "Are you sure do you want", [{text: "No"}, {text: "Yes", onPress: () => {
+            router.push({pathname: '/downloadCity', params: {id: id}})
+        }}])
+        
+
+    }
+
     return (
         <View style={style.container}>
             <TextInput style={style.searchBar} value={search} onChangeText={(text) => setSearch(text)} placeholder="Buscar ciudad" underlineColorAndroid="transparent"></TextInput>
@@ -54,7 +66,10 @@ export default function citySelector() {
                 <FlatList data={data} keyExtractor={(city) => city.id.toString()} 
                     renderItem={({item}) => {
                         return (
-                            <Text>{item.id}</Text>
+                            <TouchableOpacity style={style.cityContainer} onPress={() => selectedCity(item.onestop_id)}>
+                                <Text style={style.cityName}>{item.onestop_id}</Text>
+                                <Text style={style.cityId}>Id: {item.id}</Text>
+                            </TouchableOpacity>
                         )
                     }}
                     />
@@ -113,5 +128,17 @@ const style = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     marginLeft: 10
+  },
+  cityContainer: {
+    borderWidth: 1,
+    margin: 5,
+    padding: 5,
+    borderRadius: 10
+  },
+  cityName: {
+    fontWeight: 'bold'
+  },
+  cityId: {
+
   }
 })
