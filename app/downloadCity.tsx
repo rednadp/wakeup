@@ -1,16 +1,59 @@
-import { File } from 'expo-file-system'
+import { Directory, File, Paths } from 'expo-file-system'
 import { useLocalSearchParams } from "expo-router"
-import { StyleSheet, View } from "react-native"
+import { useState } from 'react'
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native"
+import { unzip } from 'react-native-zip-archive'
 
 
 export default function downloadCity() {
+    const [state, setState] = useState("")
     const {id} = useLocalSearchParams()
 
-    const file = new File()
+
+    const apiKey = process.env.EXPO_PUBLIC_TRANSIT_LAND_API_KEY
+
+    const url = `https://transit.land/api/v2/rest/feeds/${id}/download_latest_feed_version?apikey=${apiKey}`
+    
+    
+    const download = async () => {
+      try {
+        setState("Downloading the zip")
+        const zipFolder = new Directory(Paths.cache, 'zip')
+        if (zipFolder.exists) {
+          await zipFolder.delete()
+        }
+        
+
+        zipFolder.create()
+        const data = await File.downloadFileAsync(url, zipFolder)
+        
+
+        const gtfsFolder = new Directory(Paths.cache, 'gtfs')
+
+        if (gtfsFolder.exists) {
+          await gtfsFolder.delete()
+        }
+        gtfsFolder.create()
+        setState("Unziping")
+
+
+        const gtfs = await unzip(data.uri, gtfsFolder.uri)
+        setState("Succes")
+
+        console.log("exito", gtfs)
+
+        await zipFolder.delete()
+        await gtfsFolder.delete()
+
+      } catch (err) {
+        console.log(err)
+      }
+    }
 
     return (
         <View>
-
+          <TouchableOpacity style={style.mainButton} onPress={download}><Text>Download</Text></TouchableOpacity>
+          <Text>{state}</Text>
         </View>
     )
 }
