@@ -27,7 +27,6 @@ export default function downloadCity() {
         zipFolder.create()
         const data = await File.downloadFileAsync(url, zipFolder)
         
-
         const gtfsFolder = new Directory(Paths.cache, 'gtfs')
 
         if (gtfsFolder.exists) {
@@ -47,6 +46,8 @@ export default function downloadCity() {
 
       } catch (err) {
         console.log(err)
+        console.error("No, this way nop")
+        setState(`${err}`)
       }
     }
 
