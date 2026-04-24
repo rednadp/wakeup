@@ -1,3 +1,4 @@
+import { processGtfs } from '@/hooks/processGtfs'
 import { Directory, File, Paths } from 'expo-file-system'
 import { useLocalSearchParams } from "expo-router"
 import { useState } from 'react'
@@ -37,7 +38,14 @@ export default function downloadCity() {
 
 
         const gtfs = await unzip(data.uri, gtfsFolder.uri)
+        setState("Importing")
+
+        await processGtfs(gtfs, `${id}`) // Works :)
+
         setState("Succes")
+
+        const newFile = new File(Paths.document, 'gtfs.json')
+        console.log(newFile)
 
         console.log("exito", gtfs)
 
