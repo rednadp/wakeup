@@ -1,7 +1,7 @@
 import { Directory, File, Paths } from "expo-file-system";
 import Papa from 'papaparse';
 
-export async function processGtfs(uri: string) {
+export async function processGtfs(uri: string, name: string) {
 
     const routes: any = {}
     const trip: any = {}
@@ -10,11 +10,14 @@ export async function processGtfs(uri: string) {
     const tripStopCount: any = {}
     const usedOrders: any = {}
 
-    const gtfsFolder = new Directory(uri)
-    const routesFile = new File(uri, 'routes.txt')
+    const fixedUri = `file://${uri}`
 
+    const gtfsFolder = new Directory(fixedUri)
+    console.log(uri)
+
+    
     const parseCsv = async (fileName: string) => {
-        const file = new File(uri, fileName)
+        const file = new File(gtfsFolder, fileName)
         const fileContent = await file.text()
         return new Promise((resolve, reject) => {
             Papa.parse(fileContent, {
@@ -124,9 +127,12 @@ export async function processGtfs(uri: string) {
         })
 
         const dataExport = Object.values(results)
-        const file = new File(Paths.document, 'gtfs.json')
+        const file = new File(Paths.document, `${name}.json`)
+        if (file.exists) {
+            await file.delete()
+        }
         await file.create()
-        file.write(JSON.stringify(dataExport, null, 2))
+        await file.write(JSON.stringify(dataExport, null, 2))
 
     } catch (err) {
         console.log('error', err)
