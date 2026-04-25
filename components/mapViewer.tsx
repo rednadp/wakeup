@@ -1,7 +1,8 @@
-import stops from '@/assets/stopsv2.json'
+
+import { useData } from '@/context/DataContext'
 import { useLocation } from '@/hooks/useLocation'
 import { getDistanceInMeters } from '@/utils/distance'
-import { Platform, StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, Platform, StyleSheet, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 
 type Props = {
@@ -11,8 +12,12 @@ type Props = {
 }
 
 export default function MapViewer({selectedLine, setStop, ref}: Props) {
+    const {stops, loading} = useData()
+
+
     const {location, errorMsg} = useLocation()
 
+    if (loading || !stops) return <ActivityIndicator />
     
 
     if (errorMsg) return <View><Text>{errorMsg}</Text></View>

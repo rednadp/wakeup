@@ -1,3 +1,4 @@
+import { DataProvider } from "@/context/DataContext";
 import { Stack } from "expo-router";
 /*
 export default function RootLayout() {
@@ -12,12 +13,15 @@ export default function RootLayout() {
 
 export default function RootLayout() {
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{headerShown: false}}/>
-      <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
-      <Stack.Screen name="citySelector" options={{title: 'Select your city'}}/>
-      <Stack.Screen name="downloadCity" options={{title: 'Downloading your city', }}/>
-      <Stack.Screen name="alarm" options={{title: 'Set alarm'}} />
+    <DataProvider>
+      <Stack>
+        <Stack.Screen name="index" options={{headerShown: false}}/>
+        <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
+        <Stack.Screen name="citySelector" options={{title: 'Select your city'}}/>
+        <Stack.Screen name="downloadCity" options={{title: 'Downloading your city', }}/>
+        <Stack.Screen name="alarm" options={{title: 'Set alarm'}} />
     </Stack>
+    </DataProvider>
+    
   )
 }

@@ -1,23 +1,29 @@
-import stops from '@/assets/stopsv2.json';
+
 import { Arrow } from "@/components/arrow";
 import { Button } from "@/components/Button";
 import { CenterButton } from "@/components/CenterButton";
 import ContinueButton from '@/components/ContinueButton';
 import LineSelector from '@/components/LineSelector';
 import MapViewer from "@/components/mapViewer";
+import { useData } from '@/context/DataContext';
 import { useRouter } from 'expo-router';
 import { useEffect, useMemo, useRef, useState } from "react";
 import { StyleSheet, View } from "react-native";
 import MapView from 'react-native-maps';
 
-export default function stopSelecter() {
+export default function StopSelector() {
+    const {stops, loading} = useData()
+
+    
+
+
     const [selectedStopId, setSelectedStopId] = useState<string>("0")
     const [selectedLine, setSelectedLine] = useState<null | string>(null)
     const [isLineSelectorVisible, setIsLineSelectorVisible] = useState(false)
     const router = useRouter()
     const [forceUpdate, setForceUpdate] = useState(0)
 
-    
+// if (loading || !stops) return <ActivityIndicator />
 
     const selectedStop = useMemo(() => {
         console.log("Valor actualizado")
