@@ -1,10 +1,11 @@
+import { Directory, Paths } from "expo-file-system"
 import { useRouter } from "expo-router"
 import { useEffect, useState } from "react"
 import { ActivityIndicator, Alert, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 export default function citySelector() {
     const [data, setData] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
-    const [search, setSearch] = useState("eusko")
+    const [search, setSearch] = useState("")
     const router = useRouter()
 
 
@@ -45,19 +46,43 @@ export default function citySelector() {
 
     }
 
+
+    const listDownloadedCities = () => {
+        const downloadCity = new Directory(Paths.document, 'downloadedCities')
+        const list = downloadCity.list()
+        console.log(list)
+        return list
+    }
+
     return (
         <View style={style.container}>
-            <TextInput style={style.searchBar} value={search} onChangeText={(text) => setSearch(text)} placeholder="Buscar ciudad" underlineColorAndroid="transparent"></TextInput>
+            <Text style={style.separaptorText}>Download a new city</Text>
+            <TextInput style={style.searchBar} value={search} onChangeText={(text) => setSearch(text)} placeholder="Search city" underlineColorAndroid="transparent"></TextInput>
             {search.length <= 3 ? 
             <View style={style.mainUi}>
                 <View style={style.aplogizeText}>
                     <Text style={style.text}>Please, write at least 3 letters</Text>
-                    <Text>Sorry for the inconvinience, but we run in a limited api usage. This is done like this to avoid doing a lot of api calls</Text>
+                    <Text>Sorry for the inconvinience, but we run in a limited api usage. This is done like this to avoid doing a lot of api calls.</Text>
+                </View>
+                <Text style={style.separaptorText}>Downloaded cities</Text>
+                <View style={style.separator} />
+                <View style={style.cityListContainer}>
+                    
+                    <FlatList style={style.cityList} data={listDownloadedCities()} keyExtractor={(item) => item.uri} 
+                    renderItem={({item}) => {
+                        return (
+                            <TouchableOpacity style={style.cityContainer} onPress={() => null}>
+                                <Text style={style.cityName}>{item.name}</Text>
+                                <Text style={style.cityId}>Id: {item.name}</Text>
+                            </TouchableOpacity>
+                        )
+                    }}
+                    />
                 </View>
             </View>
             : 
              (loading == true ? 
-             <View style={style.mainUi}>
+             <View style={style.centerContent}>
                 <Text>Loading...</Text>
                 <ActivityIndicator />
             </View>
@@ -73,7 +98,6 @@ export default function citySelector() {
                         )
                     }}
                     />
-                <Text>Hola</Text>
             </View>)
             }
         </View>
@@ -81,12 +105,43 @@ export default function citySelector() {
 }
 
 const style = StyleSheet.create({
+    mainUi : {
+        width: '100%',
+        flex: 1
+    },
+    cityListContainer: {
+        width: '100%',
+        flex: 1
+    },
+    cityList: {
+        flexGrow: 1,
+        width: '100%'
+    },
+    topText: {
+        fontSize: 10,
+        textAlign: 'left',
+        fontWeight: 'bold',
+        alignSelf: 'flex-start',
+    },
+    separaptorText: {
+        fontSize: 10,
+        textAlign: 'left',
+        fontWeight: 'bold',
+        alignSelf: 'flex-start',
+        marginTop: 10
+    },
+    separator: {
+        borderBottomColor: '#ccccc',
+        borderBottomWidth: StyleSheet.hairlineWidth,
+        marginBottom: 10,
+        width: '100%'
+    },
     container: {
         backgroundColor: '#F8F9FA',
         flex: 1,
         padding: 20
     },
-    mainUi: {
+    centerContent: {
         alignItems: 'center',
         justifyContent: 'center',
     },
@@ -131,8 +186,10 @@ const style = StyleSheet.create({
   },
   cityContainer: {
     borderWidth: 1,
-    margin: 5,
-    padding: 5,
+    marginVertical: 5,
+    marginHorizontal: 0,
+    width: '100%',
+    padding: 15,
     borderRadius: 10
   },
   cityName: {
