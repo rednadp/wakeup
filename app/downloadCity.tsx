@@ -1,15 +1,19 @@
+import { useData } from '@/context/DataContext'
 import { processGtfs } from '@/hooks/processGtfs'
 import { Directory, File, Paths } from 'expo-file-system'
-import { useLocalSearchParams } from "expo-router"
+import { useLocalSearchParams, useRouter } from 'expo-router'
 import { useState } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native"
 import { unzip } from 'react-native-zip-archive'
 
 
 export default function downloadCity() {
+    const { loadCity } = useData()
+
     const [state, setState] = useState("")
     const {id} = useLocalSearchParams()
 
+    const router = useRouter()
 
     const apiKey = process.env.EXPO_PUBLIC_TRANSIT_LAND_API_KEY
 
@@ -55,11 +59,15 @@ export default function downloadCity() {
         
 
         await processGtfs(gtfs, safeId) // Works :)
+        
+        
 
         setState("Succes")
 
         const newFile = new File(Paths.document, 'downloadedCities', `${safeId}.json`)
         
+        await loadCity(safeId)
+
         console.log(newFile.textSync())
         console.log(newFile, 'esto si')
 
@@ -67,6 +75,8 @@ export default function downloadCity() {
 
         await zipFolder.delete()
         await gtfsFolder.delete()
+
+        router.push('/')
 
       } catch (err) {
         console.log(err)

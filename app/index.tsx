@@ -1,21 +1,19 @@
+import { useData } from "@/context/DataContext";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Link } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
-    
+    const {selectedCity} = useData()
     
 
     return (
         <View style={style.container}>
         <Text style={style.text}>Wake up</Text>
         <Link asChild href='/citySelector'>
-            <TouchableOpacity style={style.mainButton}>
-                <Ionicons name="arrow-forward" size={24} color={'#fff'} />
-                <Text style={style.mainButtonText}>Select city</Text>
-            </TouchableOpacity>  
+            <Text>{`Selected city: ${selectedCity}`}</Text>
         </Link>
-        <Link asChild href='/stopSelector'>
+        <Link asChild href={{pathname: '/stopSelector', params: {cityName: null}}}>
             <TouchableOpacity style={style.mainButton}>
                 <Ionicons name="arrow-forward" size={24} color={'#fff'} />
                 <Text style={style.mainButtonText}>Select stop</Text>

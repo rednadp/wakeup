@@ -1,7 +1,12 @@
-import stops from '@/assets/stopsv2.json'
+
+import { Stop, useData } from '@/context/DataContext'
 import { ScrollView, StyleSheet, Text, TouchableOpacity } from "react-native"
 
-function obtainLines() {
+
+
+
+function obtainLines(stops: Stop[]) {
+
     const repitedLines = stops.flatMap(stop => stop.lines)
 
     const unicLines = []
@@ -22,7 +27,13 @@ type Props = {
 }
 
 export default function LineSelector ({selectedLine, setLine}: Props) {
-    const lines = obtainLines()
+    const {stops, loading} = useData()
+
+
+    //if (loading || !stops) return <ActivityIndicator />
+
+
+    const lines = obtainLines(stops)
  //   console.log(lines)
     return (
         <ScrollView

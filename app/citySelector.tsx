@@ -1,8 +1,12 @@
+import { useData } from "@/context/DataContext"
 import { Directory, Paths } from "expo-file-system"
 import { useRouter } from "expo-router"
 import { useEffect, useState } from "react"
 import { ActivityIndicator, Alert, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
+
 export default function citySelector() {
+    const {loadCity} = useData()
+
     const [data, setData] = useState<any[]>([])
     const [loading, setLoading] = useState(true)
     const [search, setSearch] = useState("")
@@ -71,8 +75,8 @@ export default function citySelector() {
                     <FlatList style={style.cityList} data={listDownloadedCities()} keyExtractor={(item) => item.uri} 
                     renderItem={({item}) => {
                         return (
-                            <TouchableOpacity style={style.cityContainer} onPress={() => null}>
-                                <Text style={style.cityName}>{item.name}</Text>
+                            <TouchableOpacity style={style.cityContainer} onPress={() => {loadCity(item.name.replace('.json', '')); router.push('/')}}>
+                                <Text style={style.cityName}>{item.name.replace('.json', '')}</Text>
                                 <Text style={style.cityId}>Id: {item.name}</Text>
                             </TouchableOpacity>
                         )

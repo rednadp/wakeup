@@ -34,7 +34,7 @@ export async function processGtfs(uri: string, name: string) {
             routes[data.route_id] = {
             name: data.route_long_name,
             shortName: data.route_short_name,
-            color:  data.route_color ? `#${data.route_color}` : '#fff'
+            color:  data.route_color ? `#${data.route_color}` : '#dadada'
             }
         })
 
