@@ -127,7 +127,13 @@ export async function processGtfs(uri: string, name: string) {
         })
 
         const dataExport = Object.values(results)
-        const file = new File(Paths.document, `${name}.json`)
+        const downloadedCities = new Directory(Paths.document, 'downloadedCities')
+        
+        if (!downloadedCities.exists) {
+            downloadedCities.create()
+        }
+
+        const file = new File(downloadedCities, `${name}.json`)
         if (file.exists) {
             await file.delete()
         }

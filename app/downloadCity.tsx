@@ -26,7 +26,9 @@ export default function downloadCity() {
         
 
         zipFolder.create()
-        const data = await File.downloadFileAsync(url, zipFolder)
+        const zip = new File(zipFolder, 'dowloaded')
+
+        const data = await File.downloadFileAsync(url, zip)
         
         const gtfsFolder = new Directory(Paths.cache, 'gtfs')
 
@@ -40,12 +42,26 @@ export default function downloadCity() {
         const gtfs = await unzip(data.uri, gtfsFolder.uri)
         setState("Importing")
 
-        await processGtfs(gtfs, `${id}`) // Works :)
+        const cleanId = (texto: string) => {
+          return texto
+            .toLowerCase()
+            .normalize("NFD") // Separa las tildes de las letras
+            .replace(/[\u0300-\u036f]/g, "") // Borra las tildes
+            .replace(/[^a-z0-9]/g, '_') // Cambia cualquier cosa que no sea letra o número por "_"
+            .substring(0, 20); // Lo cortamos para que no sea infinito
+        }
+
+        const safeId = cleanId(`${id}`)
+        
+
+        await processGtfs(gtfs, safeId) // Works :)
 
         setState("Succes")
 
-        const newFile = new File(Paths.document, 'gtfs.json')
-        console.log(newFile)
+        const newFile = new File(Paths.document, 'downloadedCities', `${safeId}.json`)
+        
+        console.log(newFile.textSync())
+        console.log(newFile, 'esto si')
 
         console.log("exito", gtfs)
 
