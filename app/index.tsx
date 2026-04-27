@@ -1,24 +1,41 @@
 import { useData } from "@/context/DataContext";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Link } from "expo-router";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Alert, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
     const {selectedCity} = useData()
     
-
+    const isCitySelected = () => {
+        if (selectedCity === "") {
+            return false
+        } else {
+            return true
+        }
+    }
     return (
         <View style={style.container}>
         <Text style={style.text}>Wake up</Text>
         <Link asChild href='/citySelector'>
-            <Text>{`Selected city: ${selectedCity}`}</Text>
+            <TouchableOpacity style={style.selectedCity}>
+                <Text style={style.selectedCityText}>{`Selected city: ${isCitySelected() ? selectedCity : "None"}`}</Text>
+                <Ionicons name="settings" size={18} />
+            </TouchableOpacity>
         </Link>
-        <Link asChild href={{pathname: '/stopSelector', params: {cityName: null}}}>
-            <TouchableOpacity style={style.mainButton}>
+        {
+            isCitySelected() ? 
+            <Link asChild href={{pathname: '/stopSelector', params: {cityName: null}}}>
+                <TouchableOpacity style={style.mainButton}>
+                    <Ionicons name="arrow-forward" size={24} color={'#fff'} />
+                    <Text style={style.mainButtonText}>Select stop</Text>
+                </TouchableOpacity>  
+            </Link> :
+            <TouchableOpacity style={style.mainButton} onPress={() => Alert.alert("No city selected")}>
                 <Ionicons name="arrow-forward" size={24} color={'#fff'} />
                 <Text style={style.mainButtonText}>Select stop</Text>
             </TouchableOpacity>  
-        </Link>
+        }
+        
         </View>
     )
 }
@@ -26,6 +43,16 @@ export default function Index() {
 
 
 const style = StyleSheet.create({
+    selectedCity: {
+        marginTop: 50,
+        flexDirection: 'row',
+        marginBottom: 10,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    selectedCityText: {
+        marginRight: 5
+    },
     container: {
         backgroundColor: '#F8F9FA',
         flex: 1,
@@ -45,7 +72,6 @@ const style = StyleSheet.create({
     width: '85%',
     alignSelf: 'center',
     marginHorizontal: 60,
-    marginVertical: 50,
     borderRadius: 20,
     flexDirection: 'row',
     justifyContent: 'center',
