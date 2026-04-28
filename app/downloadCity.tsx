@@ -64,10 +64,11 @@ export default function DownloadCity() {
 
         const safeName = cleanId(`${givenName}`)
         
-
-        await processGtfs(gtfs, safeName) // Works :)
+        const {isSuccessful, err} = await processGtfs(gtfs, safeName)
         
-        
+        if (!isSuccessful) {
+          throw new Error(err)
+        }
 
         setState("Succes")
 

@@ -66,7 +66,7 @@ export default function citySelector() {
             <View style={style.mainUi}>
                 <View style={style.aplogizeText}>
                     <Text style={style.text}>Please, write at least 3 letters</Text>
-                    <Text>Sorry for the inconvinience, but we run in a limited api usage. This is done like this to avoid doing a lot of api calls.</Text>
+                    <Text>This is an experiment! Please, expect bugs. There is an androind limitation on ram usage so large cities such as New York won't work. Instead, try using the other method!</Text>
                 </View>
                 <Text style={style.separaptorText}>Downloaded cities</Text>
                 <View style={style.separator} />

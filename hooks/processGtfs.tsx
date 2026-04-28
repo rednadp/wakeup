@@ -139,8 +139,10 @@ export async function processGtfs(uri: string, name: string) {
         }
         await file.create()
         await file.write(JSON.stringify(dataExport, null, 2))
+        return {isSuccessful: true}
 
     } catch (err) {
         console.log('error', err)
+        return {isSuccessful: false, err: `${err}`}
     }
 }
