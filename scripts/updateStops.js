@@ -135,7 +135,7 @@ const dataExport = Object.values(results)
 fs.writeFileSync('./assets/stopsv2.json', JSON.stringify(dataExport, null, 2))
 }
 
-crossData()
+await crossData()
 console.log("terminado")
 
 

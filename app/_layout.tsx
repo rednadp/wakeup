@@ -1,17 +1,51 @@
 import { DataProvider } from "@/context/DataContext";
 import { Stack } from "expo-router";
-/*
-export default function RootLayout() {
-  return (
-  <Stack>
-    <Stack.Screen name="(tabs)" options={{headerShown: false}} />
-  </Stack>
-);
-}
 
-*/
+import { Directory, File, Paths } from "expo-file-system";
+import * as SplashScreen from 'expo-splash-screen';
+import { useEffect, useState } from "react";
+
+
+SplashScreen.preventAutoHideAsync()
+
+
 
 export default function RootLayout() {
+
+  const [isReady, setIsReady] = useState(false)
+
+  useEffect(() => {
+    async function importGtfs() {
+      try {
+        const folder = new Directory(Paths.document, 'downloadedCities')
+        if (!folder.exists) {folder.create()}
+
+        const assets = require.context('../assets/cities', false)
+
+        for (const key of assets.keys()) {
+          const destinationFile = new File(folder, key.replace('./', ''))
+
+          if (!destinationFile.exists) {
+            console.log("Start coping", key)
+            destinationFile.create()
+
+            destinationFile.write(JSON.stringify(assets(key)))
+
+          }
+        }
+
+        console.log("Succes")
+      } catch (err) {
+        console.error(err, 'migrating')
+      } finally {
+        setIsReady(true)
+      }
+    }
+    importGtfs()
+  }, [])
+
+
+
   return (
     <DataProvider>
       <Stack>
