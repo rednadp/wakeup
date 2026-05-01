@@ -2,6 +2,32 @@
 
 Have you ever fallen asleep on public transport and lost your stop due to that? Don't let this happen again. With this stop alarm app you will be able to select your destination and it will wake you up some meters before arriving there!
 
+# New version
+
+## Thing added
+
+- A new method to add cities inside the app
+  - It will connect to the TransitLand api to download a zip of the gtfs
+  - It will unzip it
+  - It will use the script to import the gtfs in a way the app can understand
+  - It will be saved to use it more times
+- The old method to import an app has been adapted to use it with the new system
+- A function to select which city to use has been added
+- A search bar to search cities with the api has been added (On some cities you need to search the city name, on others the company name that gives the service)
+- Changed the icon and splash screen
+
+## Limitations
+
+Please, be aware that when using the new method some limitations out of my control apply. Android has a ram limit that can use apps. In cities such as New York, that limit can be reached. Please, for big cities use the old system. (New york is already added to the app :))
+Other cities seem to throw a 404 error when downloading. I haven't got time to investigate this but it probably is a problem from the api.
+Some other cities seem to import badly (the arrows don't work). This is still to be investigated but probably they are using gtfs in a way that was unexpected when I  originally made the app for my local city (vitoria, spain).
+
+## Things learned
+
+I've remenbeder how to use an api, I have learned to use the FileSystem of expo (which I like how it works :)) and what is a provider and an interface.
+
+# Old readme
+
 ## Adapt to your city
 
 Thanks to the GTFS system it should be easily adaptable to any city even if it was originally designed for my local city (Vitoria, Spain).
@@ -15,6 +41,8 @@ Thanks to the GTFS system it should be easily adaptable to any city even if it w
    ```
 
 - Build the app
+
+Or just use the in-app feauture!
 
 ## How to build
 
@@ -43,6 +71,9 @@ Thanks to the GTFS system it should be easily adaptable to any city even if it w
 - Select the stop you want to leave
 - See the distance to the stop
 - Receive a notification and play an alarm sound when you arrive to your stop!
+- Search new cities (new!)
+- Download and import them inside the app (new!)
+- Change from multiple saved cities (new!)
 
 ## Used stack
 
@@ -60,11 +91,9 @@ A little bit of context. I have coded nothing at all for 2 years now and I had n
 
 # Note for the reviewer
 
-The built app is prepared for my city, so if you tried it, maybe you would have to fake the location. (Or maybe not if you only want to test the ui). If you wish to build the app for your city the steps are above (I haven't tried it, expect bugs).
+The built app was prepared for my city, so I assure that it will work perfectly with it. With small cities it also should work perfectly fine and with big cities if it is imported with the computer also. If you wish to build the app for your city the steps are above (Expect bugs).
 
-I have tried to use the AI as less as possible. It has been used to troubleshoot and as a reference (like Stack Overflow or Expo documentation). I have read messages in slack about how you take IA usage seriously. I hope this is not a problem.
-
-Finally, I can stop feeling a sense of impostor syndrome. I feel like anyone else could have made this silly project much faster and better than I did. I have like the sense that the quality requirements are high and that I have spent a lot of time doing this for what, in fact, it is. I would really feel sad if you reduced hours but if that is what you have to do due to the quality standards, do it. Anyways, thanks for making this possible!
+I have tried to use the AI as less as possible. It has been used to troubleshoot and as a reference (like Stack Overflow or Expo documentation), specially for making the provider (I had no idea at all of what was that). I hope this is not a problem.
 
 # Photos
 
@@ -72,4 +101,3 @@ Finally, I can stop feeling a sense of impostor syndrome. I feel like anyone els
 ![Screenshot_20260317_002329_wakeup](https://github.com/user-attachments/assets/3db1e2fd-f285-4756-b49e-8a8ddbc1a86f)
 ![Screenshot_20260317_002336_wakeup](https://github.com/user-attachments/assets/e3afa05c-de80-41c6-842b-ed842b808d6e)
 ![Screenshot_20260317_002343_wakeup](https://github.com/user-attachments/assets/93879a37-2021-435a-b03b-61a660703149)
-
