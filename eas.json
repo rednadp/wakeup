@@ -12,6 +12,10 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_TRANSIT_LAND_API_KEY": "nRpShbvtiHJa8SbGSE86izshG3Y08se8",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyBuDqb382IllhywTWCLuy1DEkHBowyNe0g"
       }
     },
     "production": {
