@@ -66,7 +66,7 @@ export default function citySelector() {
             <View style={style.mainUi}>
                 <View style={style.aplogizeText}>
                     <Text style={style.text}>Please, write at least 3 letters</Text>
-                    <Text>This is an experiment! Please, expect bugs. There is an androind limitation on ram usage so large cities such as New York won't work. Instead, try using the other method!</Text>
+                    <Text>This importing method is an experiment! Please, expect bugs. There is an android limitation on ram usage so large cities such as New York won't work. Instead, try using the other method!</Text>
                 </View>
                 <Text style={style.separaptorText}>Downloaded cities</Text>
                 <View style={style.separator} />
@@ -76,7 +76,7 @@ export default function citySelector() {
                     renderItem={({item}) => {
                         return (
                             <TouchableOpacity style={style.cityContainer} onPress={() => {loadCity(item.name.replace('.json', '')); router.push('/')}}>
-                                <Text style={style.cityName}>{item.name.replace('.json', '')}</Text>
+                                <Text style={style.cityName}>{item.name.replace('.json', '').replace('_', ' ')}</Text>
                                 <Text style={style.cityId}>Id: {item.name}</Text>
                             </TouchableOpacity>
                         )

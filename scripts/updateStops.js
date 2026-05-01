@@ -2,6 +2,9 @@ const fs = require('fs');
 const csv = require('csv-parser');
 const { info } = require('console');
 
+const readline = require('readline/promises')
+const {stdin: input, stdout: output} = require('process')
+
 const routes = {}
 const trip = {}
 const results = {}
@@ -9,7 +12,7 @@ const routeMainTrip = {}
 const tripStopCount = {}
 const usedOrders = {}
 
-async function crossData() {
+async function crossData(givenName) {
   await new Promise(resolve => {
   fs.createReadStream('./gtfs/routes.txt')
   .pipe(csv())
@@ -132,11 +135,37 @@ await new Promise(resolve => {
 })
 
 const dataExport = Object.values(results)
-fs.writeFileSync('./assets/stopsv2.json', JSON.stringify(dataExport, null, 2))
+fs.writeFileSync(`./assets/cities/${givenName}.json`, JSON.stringify(dataExport, null, 2))
 }
 
-await crossData()
-console.log("terminado")
+const cleanId = (texto) => {
+      return texto
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]/g, '_') 
+        .substring(0, 20); 
+    }
+
+async function askName() {
+  const rl = readline.createInterface({input, output})
+  const answare = await rl.question('How would you like to name your city?\n')
+  const name = cleanId(answare)
+  console.log(`Your city will be saved as ${name}.json in assets/cities`)
+  rl.close()
+  return name
+}
+
+async function main() {
+  console.log("Hello, please verify that your gtfs is in the root and in a folder named gtfs")
+  console.log("Please write the name for your city")
+  const name = await askName()
+  console.log('Please wait, your gtfs is being processed')
+  await crossData(name)
+  console.log("terminado")
+}
+
+main()
 
 
 /*
