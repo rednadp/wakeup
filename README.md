@@ -101,3 +101,7 @@ I have tried to use the AI as less as possible. It has been used to troubleshoot
 ![Screenshot_20260317_002329_wakeup](https://github.com/user-attachments/assets/3db1e2fd-f285-4756-b49e-8a8ddbc1a86f)
 ![Screenshot_20260317_002336_wakeup](https://github.com/user-attachments/assets/e3afa05c-de80-41c6-842b-ed842b808d6e)
 ![Screenshot_20260317_002343_wakeup](https://github.com/user-attachments/assets/93879a37-2021-435a-b03b-61a660703149)
+<img width="1080" height="2340" alt="Screenshot_20260502_002447_Wake up" src="https://github.com/user-attachments/assets/d2acc280-8556-44c8-b4cf-0fe06ea9adf7" />
+<img width="1080" height="2340" alt="Screenshot_20260502_002433_Wake up" src="https://github.com/user-attachments/assets/19d6816d-ed36-4bfb-891f-7366f98b3c5a" />
+
+
