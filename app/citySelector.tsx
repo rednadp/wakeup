@@ -94,6 +94,9 @@ export default function citySelector() {
             <View>
                 <FlatList data={data} keyExtractor={(city) => city.id.toString()} 
                     renderItem={({item}) => {
+                        if (item.feed_state.feed_version === null) {
+                            return null
+                        }
                         return (
                             <TouchableOpacity style={style.cityContainer} onPress={() => selectedCity(item.onestop_id)}>
                                 <Text style={style.cityName}>{item.onestop_id}</Text>

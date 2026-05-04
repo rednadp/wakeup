@@ -34,7 +34,7 @@ export async function processGtfs(uri: string, name: string) {
             routes[data.route_id] = {
             name: data.route_long_name,
             shortName: data.route_short_name,
-            color:  data.route_color ? `#${data.route_color}` : '#dadada'
+            color:  data.route_color ? `#${data.route_color}` : '#63c3ff'
             }
         })
 
@@ -115,13 +115,28 @@ export async function processGtfs(uri: string, name: string) {
                 if (!alreadyExist && !alreadyUsedInLine) {
                     if (!usedOrders[lineKey]) usedOrders[lineKey] = new Set()
                     usedOrders[lineKey].add(order)
-
-                    stop.lines.push({
-                        name: `${infoRoute.shortName} - ${tripInfo.headsign}`,
-                        shortName: infoRoute.shortName,
-                        color: infoRoute.color,
-                        order: order
-                    })
+                    if (infoRoute.shortName === '') {
+                        stop.lines.push({
+                            name: `${tripInfo.headsign}`,
+                            shortName: infoRoute.shortName,
+                            color: infoRoute.color,
+                            order: order
+                        })
+                    } else if (tripInfo.headsign === '') {
+                        stop.lines.push({
+                            name: `${infoRoute.shortName}`,
+                            shortName: infoRoute.shortName,
+                            color: infoRoute.color,
+                            order: order
+                        })
+                    } else {
+                        stop.lines.push({
+                            name: `${infoRoute.shortName} - ${tripInfo.headsign}`,
+                            shortName: infoRoute.shortName,
+                            color: infoRoute.color,
+                            order: order
+                        })
+                    }
                 }
             }
         })
