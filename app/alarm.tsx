@@ -1,22 +1,38 @@
-import { useLocation } from "@/hooks/useLocation";
+import { useContextLocation } from '@/context/UseLocationContext';
 import { getDistanceInMeters } from "@/utils/distance";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { createAudioPlayer } from 'expo-audio';
+import * as Haptics from 'expo-haptics';
 import * as Notifications from 'expo-notifications';
 import { useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
+Notifications.setNotificationHandler({
+    handleNotification: async () => ({
+        shouldPlaySound: true,
+        shouldSetBadge: false,
+        shouldShowBanner: true,
+        shouldShowList: true
+    })
+})
+
+
+
 export default function Alarm() {
     const {id, stopName, lineName, lineColor, order, shortName, lat, lon} = useLocalSearchParams()
-    const {location, errorMsg} = useLocation()
+    
+    const {location, errorMsg} = useContextLocation()
+
     const [activeAlarm, setActiveAlarm] = useState(false)
 
-    if (errorMsg) return <View><Text>{errorMsg}</Text></View>
-    if (!location) return <View><Text>Getting location</Text></View>
+
+    if (errorMsg) return <View style={style.errContainer}><Text style={style.errText}>{errorMsg}</Text></View>
+    if (!location) return <View style={style.errContainer}><Text style={style.errText}>Getting location</Text></View>
 
     const triggerWakeUp = async () => {
-        await Notifications.scheduleNotificationAsync({
+        try {
+            await Notifications.scheduleNotificationAsync({
             content: {
                 title: 'Wake up!',
                 body: `You are arriving at ${stopName}`,
@@ -24,11 +40,17 @@ export default function Alarm() {
                 priority: 'max'
             }, trigger: null
         })
-
+        Haptics.selectionAsync()
         const player = createAudioPlayer(require('@/assets/alarm.mp3'))
+        player.volume = 1.0
         player.play()
         setActiveAlarm(false)
+        
         console.log("Alarm activated")
+        } catch (err) {
+            console.log(err)
+        }
+        
     }
 
     if (activeAlarm) {
@@ -154,5 +176,16 @@ const style = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginLeft: 10
-  }
+  },
+  errContainer: {
+        flex: 1,
+        height: '100%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }, 
+    errText: {
+        fontSize: 24,
+        margin: 20
+    }
 })

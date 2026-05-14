@@ -1,6 +1,7 @@
 import { DataProvider } from "@/context/DataContext";
 import { Stack } from "expo-router";
 
+import { LocationProvider } from "@/context/UseLocationContext";
 import { Directory, File, Paths } from "expo-file-system";
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useState } from "react";
@@ -53,15 +54,17 @@ export default function RootLayout() {
 
   return (
     <View style={{flex: 1}} onLayout={onLayout}>
-      <DataProvider>
-        <Stack>
-            <Stack.Screen name="index" options={{headerShown: false}}/>
-            <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
-            <Stack.Screen name="citySelector" options={{title: 'Select your city'}}/>
-            <Stack.Screen name="downloadCity" options={{title: 'Downloading your city', }}/>
-            <Stack.Screen name="alarm" options={{title: 'Set alarm'}} />
-        </Stack>
-      </DataProvider>
+      <LocationProvider>
+        <DataProvider>
+          <Stack>
+              <Stack.Screen name="index" options={{headerShown: false}}/>
+              <Stack.Screen name="stopSelector" options={{headerShown: false}}/>
+              <Stack.Screen name="citySelector" options={{title: 'Select your city'}}/>
+              <Stack.Screen name="downloadCity" options={{title: 'Downloading your city', }}/>
+              <Stack.Screen name="alarm" options={{title: 'Set alarm'}} />
+          </Stack>
+        </DataProvider>
+      </LocationProvider>
     </View>
     
     

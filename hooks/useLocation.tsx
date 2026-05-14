@@ -5,7 +5,11 @@ export function useLocation() {
     const [location, setLocation] = useState<Location.LocationObject | null>(null)
     const [errorMsg, setErrorMsg] = useState<string | null>(null)
 
-    useEffect(() => {
+    let subscriber: Location.LocationSubscription | null = null
+
+    async function startGettingLocation() {
+        
+
         async function getPermissions() {
             try {
                 let {status} = await Location.requestForegroundPermissionsAsync()
@@ -26,12 +30,12 @@ export function useLocation() {
 
             setLocation(location)
             } catch (error) {
-                setErrorMsg("Error")
+                setErrorMsg(`${error}`)
                 console.log(error)
             }
             
 
-            const subscriber = await Location.watchPositionAsync(
+            subscriber = await Location.watchPositionAsync(
                 {
                     accuracy: Location.Accuracy.High,
                     distanceInterval: 10
@@ -41,11 +45,23 @@ export function useLocation() {
                 }
             )
 
-            return () => {
-                if (subscriber) subscriber.remove()
-            }
+            
         }
         getPermissions()
+        
+    }
+
+    function resetLocation () {
+        if (subscriber) subscriber.remove()
+        setLocation(null)
+        setErrorMsg(null)
+    }
+
+    useEffect(() => {
+        return () => {
+            if (subscriber) subscriber.remove()
+        }
     }, [])
-    return {location, errorMsg}
+
+    return {location, errorMsg, startGettingLocation, resetLocation}
 }

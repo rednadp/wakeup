@@ -1,7 +1,8 @@
 
 import { useData } from '@/context/DataContext'
-import { useLocation } from '@/hooks/useLocation'
+import { useContextLocation } from '@/context/UseLocationContext'
 import { getDistanceInMeters } from '@/utils/distance'
+import { useEffect } from 'react'
 import { ActivityIndicator, Platform, StyleSheet, Text, View } from 'react-native'
 import MapView, { Marker } from 'react-native-maps'
 
@@ -14,14 +15,22 @@ type Props = {
 export default function MapViewer({selectedLine, setStop, ref}: Props) {
     const {stops, loading} = useData()
 
+    const {location, errorMsg, startGettingLocation, resetLocation} = useContextLocation()
 
-    const {location, errorMsg} = useLocation()
+    useEffect(() => {
+        if (!location && !errorMsg) {
+            startGettingLocation()
+        } else if (!location) {
+            resetLocation()
+            startGettingLocation()
+        }
+    }, [])
 
     if (loading || !stops) return <ActivityIndicator />
     
 
-    if (errorMsg) return <View><Text>{errorMsg}</Text></View>
-    if (!location) return <View><Text>Getting location</Text></View>
+    if (errorMsg) return <View style={style.errContainer}><Text style={style.errText}>{errorMsg}</Text></View>
+    if (!location) return <View style={style.errContainer}><Text style={style.errText}>Getting location</Text></View>
 
 
     if (Platform.OS === 'android') {
@@ -52,7 +61,7 @@ export default function MapViewer({selectedLine, setStop, ref}: Props) {
                     title={name}
                     coordinate={{latitude: lat, longitude: lon}}
                     key={index}
-                    description={`Disctance: ${getDistanceInMeters(location.coords.latitude, location.coords.longitude, lat, lon)}`}
+                    description={`Disctance: ${location ? getDistanceInMeters(location.coords.latitude, location.coords.longitude, lat, lon): 'err'}`} // Esto no se por que hay que hacerlo, si no me dice que puede ser undefind
                     />
                 )
             })}
@@ -71,5 +80,16 @@ const style = StyleSheet.create({
     {
         width: '100%',
         height: '100%'
+    },
+    errContainer: {
+        flex: 1,
+        height: '100%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    }, 
+    errText: {
+        fontSize: 24,
+        margin: 20
     }
 })

@@ -22,17 +22,19 @@ interface DataContextType {
   stops: Stop[],
   loadCity: (cityName: string) => Promise<void>,
   loading: boolean,
-  selectedCity: string
+  selectedCity: string,
 }
 
 const DataContext = createContext<DataContextType>({
     stops: [],
     loadCity: async () => {},
     loading: true,
-    selectedCity: ""
+    selectedCity: "",
 } as DataContextType)
 
+
 export const DataProvider = ({children}: any) => {
+
     const [stops, setStops] = useState<Stop[]>([])
     const [loading, setLoading] = useState(false)
     const [selectedCity, setSelectedCity] = useState("")
@@ -71,3 +73,4 @@ export const useData = () => {
     }
     return context
 }
+
