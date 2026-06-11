@@ -115,9 +115,9 @@ mapRef.current?.fitToSuppliedMarkers([stop], {edgePadding: {
     } 
     return (
         <View style={style.container}>
-            <MapViewer ref={mapRef} setStop={(stopId) => setSelectedStopId(stopId)} selectedLine={selectedLine} />
+            <MapViewer ref={mapRef} setStop={(stopId) => {setSelectedStopId(stopId); if (selectedLine === null) {setSelectedLine(stops.find((stop) => stop.id === stopId)?.lines[0].name ?? 'error')}}} selectedLine={selectedLine} />
             {isLineSelectorVisible && <LineSelector selectedLine={selectedLine ?? "No selected line"} setLine={(line) => {setSelectedLine(line); setIsLineSelectorVisible(false); updateLine()}} />}
-            {(!isLineSelectorVisible && selectedStop) && <ContinueButton label='Select ' onPress={() => router.push({pathname: '/alarm', params: {id: selectedStop?.id, stopName: selectedStop?.name, shortName: selectedStop?.lines.find((line) => line.name == selectedLine)?.shortName, lineColor: selectedStop?.lines.find((line) => line.name == selectedLine)?.color, lineName: selectedLine, order: selectedStop?.lines.find((line) => line.name == selectedLine)?.order, lat: selectedStop?.lat, lon: selectedStop?.lon}})}/>}
+            {(!isLineSelectorVisible && selectedStop && selectedLine) && <ContinueButton label='Select ' onPress={() => router.push({pathname: '/alarm', params: {id: selectedStop?.id, stopName: selectedStop?.name, shortName: selectedStop?.lines.find((line) => line.name == selectedLine)?.shortName, lineColor: selectedStop?.lines.find((line) => line.name == selectedLine)?.color, lineName: selectedLine, order: selectedStop?.lines.find((line) => line.name == selectedLine)?.order, lat: selectedStop?.lat, lon: selectedStop?.lon}})}/>}
             <View style={style.ui}>
                 <Button onPress={() => setIsLineSelectorVisible((isLineSelectorVisible ? false: true))} label={selectedLine ?? "No selected line"} />
                 <View style={style.bottomRow}>
