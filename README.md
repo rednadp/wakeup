@@ -2,9 +2,18 @@
 
 Have you ever fallen asleep on public transport and lost your stop due to that? Don't let this happen again. With this stop alarm app you will be able to select your destination and it will wake you up some meters before arriving there!
 
-# New version
+# Version V3
 
-## Thing added
+## Added things
+
+- Mainly fixed some issues
+  - Avoided to ask and loading the user location each screen it change
+  - Change how errors are shown to the user
+- Changed the splas screen size
+
+# Version V2
+
+## Added things
 
 - A new method to add cities inside the app
   - It will connect to the TransitLand api to download a zip of the gtfs
@@ -46,6 +55,9 @@ Or just use the in-app feauture!
 
 ## How to build
 
+- Add your Google Maps sdk for android and TransitLand api keys to the eas json.
+  - You need a debit card to get a Google Maps sdk api key. Get your free accoung <a href='https://console.cloud.google.com/'>here</a>.
+  - You can get a free api key for TransitLand <a href='https://www.transit.land/plans-pricing/'> here</a>.
 - Install explo cli
 
    ```bash
@@ -103,5 +115,3 @@ I have tried to use the AI as less as possible. It has been used to troubleshoot
 ![Screenshot_20260317_002343_wakeup](https://github.com/user-attachments/assets/93879a37-2021-435a-b03b-61a660703149)
 <img width="1080" height="2340" alt="Screenshot_20260502_002447_Wake up" src="https://github.com/user-attachments/assets/d2acc280-8556-44c8-b4cf-0fe06ea9adf7" />
 <img width="1080" height="2340" alt="Screenshot_20260502_002433_Wake up" src="https://github.com/user-attachments/assets/19d6816d-ed36-4bfb-891f-7366f98b3c5a" />
-
-

@@ -1,5 +1,5 @@
 import { useData } from "@/context/DataContext"
-import { Directory, Paths } from "expo-file-system"
+import { Directory, File, Paths } from "expo-file-system"
 import { useRouter } from "expo-router"
 import { useEffect, useState } from "react"
 import { ActivityIndicator, Alert, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
@@ -12,6 +12,7 @@ export default function citySelector() {
     const [search, setSearch] = useState("")
     const router = useRouter()
 
+    const [forceRenderUpdate, setForzeRenderUpdate] = useState(0)
 
     const apiKey = process.env.EXPO_PUBLIC_TRANSIT_LAND_API_KEY
 
@@ -58,6 +59,17 @@ export default function citySelector() {
         return list
     }
 
+    const askremoveDownloadedCity = (city: string) => {
+        Alert.alert('Delete city', 'Are you sure do you want to delete this city?', [{text: 'No'}, {text: 'Yes', onPress: () => removeDownloadedCity(city)}])
+    }
+
+    const removeDownloadedCity = (city: string) => {
+        const cityFolder = new Directory(Paths.document, 'downloadedCities')
+        const file = new File(cityFolder, city)
+        file.delete()
+        setForzeRenderUpdate(forceRenderUpdate + 1)
+    }
+
     return (
         <View style={style.container}>
             <Text style={style.separaptorText}>Download a new city</Text>
@@ -68,14 +80,14 @@ export default function citySelector() {
                     <Text style={style.text}>Please, write at least 3 letters</Text>
                     <Text>This importing method is an experiment! Please, expect bugs. There is an android limitation on ram usage so large cities such as New York won't work. Instead, try using the other method!</Text>
                 </View>
-                <Text style={style.separaptorText}>Downloaded cities</Text>
+                <Text style={style.separaptorText}>Downloaded cities (long press to delete)</Text>
                 <View style={style.separator} />
                 <View style={style.cityListContainer}>
                     
                     <FlatList style={style.cityList} data={listDownloadedCities()} keyExtractor={(item) => item.uri} 
                     renderItem={({item}) => {
                         return (
-                            <TouchableOpacity style={style.cityContainer} onPress={() => {loadCity(item.name.replace('.json', '')); router.push('/')}}>
+                            <TouchableOpacity style={style.cityContainer} onLongPress={() => askremoveDownloadedCity(item.name)} onPress={() => {loadCity(item.name.replace('.json', '')); router.push('/')}}>
                                 <Text style={style.cityName}>{item.name.replace('.json', '').replace('_', ' ')}</Text>
                                 <Text style={style.cityId}>Id: {item.name}</Text>
                             </TouchableOpacity>
@@ -122,7 +134,8 @@ const style = StyleSheet.create({
     },
     cityList: {
         flexGrow: 1,
-        width: '100%'
+        width: '100%',
+        marginBottom: 1
     },
     topText: {
         fontSize: 10,
