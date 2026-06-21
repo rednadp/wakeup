@@ -1,4 +1,4 @@
-# Wake up (TransitTime project)
+# Wake up
 
 Have you ever fallen asleep on public transport and lost your stop due to that? Don't let this happen again. With this stop alarm app you will be able to select your destination and it will wake you up some meters before arriving there!
 
@@ -7,9 +7,9 @@ Have you ever fallen asleep on public transport and lost your stop due to that? 
 ## Added things
 
 - Mainly fixed some issues
-  - Avoided to ask and loading the user location each screen it change
+  - Avoided asking and loading the user location for each screen (now it ask it globaly)
   - Change how errors are shown to the user
-- Changed the splas screen size
+- Changed the splash screen size
 
 # Version V2
 
@@ -28,14 +28,13 @@ Have you ever fallen asleep on public transport and lost your stop due to that? 
 ## Limitations
 
 Please, be aware that when using the new method some limitations out of my control apply. Android has a ram limit that can use apps. In cities such as New York, that limit can be reached. Please, for big cities use the old system. (New york is already added to the app :))
-Other cities seem to throw a 404 error when downloading. I haven't got time to investigate this but it probably is a problem from the api.
 Some other cities seem to import badly (the arrows don't work). This is still to be investigated but probably they are using gtfs in a way that was unexpected when I  originally made the app for my local city (vitoria, spain).
 
 ## Things learned
 
 I've remenbeder how to use an api, I have learned to use the FileSystem of expo (which I like how it works :)) and what is a provider and an interface.
 
-# Old readme
+# Version V1
 
 ## Adapt to your city
 
@@ -56,7 +55,7 @@ Or just use the in-app feauture!
 ## How to build
 
 - Add your Google Maps sdk for android and TransitLand api keys to the eas json.
-  - You need a debit card to get a Google Maps sdk api key. Get your free accoung <a href='https://console.cloud.google.com/'>here</a>.
+  - You need a debit card to get a Google Maps sdk api key. Get your free account <a href='https://console.cloud.google.com/'>here</a>.
   - You can get a free api key for TransitLand <a href='https://www.transit.land/plans-pricing/'> here</a>.
 - Install explo cli
 
@@ -83,9 +82,9 @@ Or just use the in-app feauture!
 - Select the stop you want to leave
 - See the distance to the stop
 - Receive a notification and play an alarm sound when you arrive to your stop!
-- Search new cities (new!)
-- Download and import them inside the app (new!)
-- Change from multiple saved cities (new!)
+- Search new cities
+- Download and import them inside the app
+- Change from multiple saved cities
 
 ## Used stack
 

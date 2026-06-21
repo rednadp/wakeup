@@ -74,7 +74,7 @@ export default function citySelector() {
         <View style={style.container}>
             <Text style={style.separaptorText}>Download a new city</Text>
             <TextInput style={style.searchBar} value={search} onChangeText={(text) => setSearch(text)} placeholder="Search city" underlineColorAndroid="transparent"></TextInput>
-            {search.length <= 3 ? 
+            {search.length <= 3 ?
             <View style={style.mainUi}>
                 <View style={style.aplogizeText}>
                     <Text style={style.text}>Please, write at least 3 letters</Text>
